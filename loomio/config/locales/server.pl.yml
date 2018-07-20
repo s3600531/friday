@@ -1,0 +1,24 @@
+pl:
+  poll:
+    export:
+      title: Tytuł
+      author: Autor
+      details: Szczegóły
+      group_name: Nazwa Grupy
+      total: W sumie
+  email:
+    catch_up:
+      mark_as_read: Oznaczenie jako przeczytane
+  footer:
+    about: O...
+    blog: Blog
+    contact: Kontakt
+    help: Pomoc
+    privacy: Prywatność
+    pricing: Opłaty
+    public_groups: Grupy publiczne
+    terms: Regulamin
+    independent_install_html: 'Na %{hostname} uruchomiono niezależną kpię Loomio: <a href="http://github.com/loomio/loomio">znajdź więcej</a>.'
+  poll_mailer:
+    common:
+      unsubscribe: Zrezygnuj z subskrypcji

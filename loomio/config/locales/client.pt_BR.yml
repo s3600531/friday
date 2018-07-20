@@ -1,0 +1,1041 @@
+pt_BR:
+  reactions:
+    slight_smile: Curtir
+    heart: Amor
+    laughing: Gargalhada
+    clap: Bater palma
+    hugging: Abraço
+    sunglasses: Legal
+    wink: Piscar
+    nerd: Inteligente
+    relieved: Alivio
+    worried: Preocupado
+    confused: Confuso
+    confounded: Confuso
+    neutral_face: Neutra
+    slight_frown: Olhar severo
+    disappointed: Desapontada
+    angry: Bravo
+    weary: Cansado
+    astonished: Atônito
+    rolling_eyes: Virando os olhos
+    cry: Chorando
+    scream: Gritando
+    sleeping: Entediada
+    thinking: Pensando
+    raised_hands: Levanta a mão
+    pray: Rezando
+    fingers_crossed: Dedos Cruzados
+    v: Paz
+    metal: Metal
+    ok_hand: Ok
+    wave: Dar tchauzinho
+  poll_types:
+    proposal: Proposta
+    count: Checar
+    poll: Votação
+    dot_vote: Voto de ponto
+    meeting: Tempo de votação
+    ranked_choice: Escolha classificada
+  timezones:
+    local: Hora local ({{value}})
+  common:
+    you: Você
+    expand: Expandir
+    all_day: O dia todo
+    ok_got_it: OK, entendi
+    learn_more: Saiba mais
+    not_found: Não encontrado
+    time_zone: Fuso Horário
+    local_time: Hora local
+    confirm_discard_changes: Descartar suas alterações?
+    time:
+      am: am
+      pm: pm
+    closing_in: 'Fechando {{time}}'
+    closed_ago: 'Fechado {{time}}'
+    volume: 'Volume'
+    notification_volume: 'Volume de Notificações'
+    group: 'Grupo'
+    groups: 'Grupos'
+    threads: 'Tópicos'
+    decisions: 'Decisões'
+    settings: 'Configurações'
+    help: 'Ajuda'
+    anonymous: 'Anônimo '
+    privacy:
+      privacy: 'Privacidade'
+      public: 'Público'
+      open: 'Aberto'
+      closed: 'Fechado'
+      private: 'Privado'
+      secret: 'Secreto'
+    selected: 'Selecionado'
+    date_range:
+      today: 'Hoje'
+      yesterday: 'Ontem'
+      thisweek: 'Esta Semana'
+      thismonth: 'Este Mês'
+      older: 'Antigos'
+    more_help: 'Mais ajuda'
+    models:
+      proposal: 'Proposta'
+    copy: 'Copia'
+    copy_text: 'Copiar texto'
+    copied: 'Copiado para o clipboard'
+    points_abbrev: Cada voto vale {{score}} pontos
+    total: Total
+    action:
+      next: 'Próximo'
+      close: 'Encerrar'
+      save: 'Salvar'
+      save_changes: 'Salvar mudanças'
+      update_settings: 'Atualizar configurações'
+      reply: 'Responder'
+      edit: 'Editar'
+      remove: 'Remover'
+      like: 'Curtir'
+      back: 'Voltar'
+      unlike: 'Curtir (desfazer)'
+      update: 'Atualização'
+      cancel: 'Cancelar'
+      show_more: "Mostrar mais"
+      view_all: "Ver Tudo"
+      new_thread: "Novo tópico"
+      add_subgroup: 'Adicionar subgrupo'
+      loading: 'Carregando'
+      translate: 'Traduzir'
+      translated: 'Tradução do Bing Tradutor'
+      upload: 'Carregar'
+      uploading: 'Carregando'
+      load_more: 'Carregar mais'
+      share: Compartilhar
+      ok: OK!
+      retry: Tentar de novo
+      done: Pronto
+      start: Começo
+      delete: Deletar
+      unsubscribe: Cancelar subscrição
+      subscribe: Se inscrever
+      remind: Lembrar
+      resend: 'Reenviar '
+      send: Enviar
+      invite: Convidar
+      resent: Convide reenviado
+    formatting_help:
+      label: 'Formatação'
+      title: 'Aprenda como usar Markdown para formatar seu texto'
+  ordinal:
+    _1: 1°
+    _2: 2°
+    _3: 3°
+    _4: 4°
+    _5: 5°
+    _6: 6°
+    _7: 7°
+    _8: 8°
+    _9: 9°
+    _10: 10°
+  devise:
+    failure:
+      inactive: 'Há uma conta desativada associada com esse endereço de email. Caso deseje reativar sua conta, entre em contato conosco.'
+  error_page:
+    forbidden: 'Você não tem permissão para fazer isso.'
+    page_not_found: 'Não fomos capazes de encontrar. Pode ter sido excluído ou movido.'
+    internal_server_error: 'Lamentamos, mas algo deu errado. Por favor, tente novamente.'
+  verify_email_notice:
+    please_verify: Obrigada por participar! Por favor cheque seu email para um link que verificará seu voto.
+  verify_stances:
+    title: Verificar votos
+    description: Por favor reveja os votos abaixo e verifique que são seus.
+    verify: Verificar
+    remove: Remover
+    verify_success: Voto verificado
+    remove_success: Voto removido
+    all_done: Parabéns, você verificou todos os votos.
+  previous_polls_page:
+    heading: Atividades em {{name}}
+    polls_count: Mostrando {{loaded}} de {{total}} decisoões
+    search_activities: Buscar decisões
+  volume_levels:
+    loud: 'Alto'
+    normal: 'Normal'
+    quiet: 'Quieto'
+    mute: 'Mudo'
+    unmute: 'Com som'
+  change_volume_form:
+    aria_label: "Formulário para alteração de configurações de e-mail"
+    loud_label: "Toda atividade"
+    normal_label: "Anúncios"
+    quiet_label: "Sem e-mails"
+    mute_label: "Mudo"
+    discussion:
+      loud_description: "Será enviado e-mail pra você sempre que houver atividade neste segmento."
+      normal_description: "Você receberá e-mail sempre que uma propostafor iniciado, estiver prestes a fechar, ou um resultado for publicado."
+      quiet_description: "Não será enviado e-mail sobre este tópico."
+      apply_to_all: "Aplicar estas configurações para os tópicos neste grupo."
+      messages:
+        loud: "Serão enviados e-mails de atividades neste grupo"
+        normal: "Serão enviados e-mails sobre propostas neste tópico."
+        quiet: "Não será enviado e-mail sobre este tópico."
+    membership:
+      title: "Configurações de e-mail para {{title}}"
+      loud_description: "Você receberá e-mail sempre que houver atividade neste grupo."
+      normal_description: "Você receberá somente emails de anúncios neste grupo."
+      quiet_description: "Você não receberá e-mail sobre atividade neste grupo."
+      apply_to_all: "Aplicar estas configurações para todos os meus grupos."
+      messages:
+        loud: "Você receberá e-mails de todas as atividades neste grupo"
+        normal: "Você receberá somente emails de anúncios neste grupo."
+        quiet: "Você não receberá e-mail sobre este grupo."
+    all_groups:
+      messages:
+        loud: "Você receberá e-mails de todas as atividades em todos os seus grupos."
+        normal: "Você receberá somente emails de anúncios em todos os seus grupos."
+        quiet: "Você não receberá e-mail sobre nenhum dos seus grupos."
+    user:
+      title: Configurações de e-mail para novos grupos
+      loud_description: "Você receberá e-mail sempre que houver atividade em quaisquer novos grupos que você entrar."
+      normal_description: "Você receberá emails de anúncios em cada novo grupo que você entrar. "
+      quiet_description: "Você não receberá e-mail sobre atividade em quaisquer novos grupos que você entrar."
+      apply_to_all: "Aplicar estas configurações para todos os meus grupos."
+      messages:
+        loud: "Você receberá e-mail de todas as atividades em novos grupos."
+        normal: "Você receberá emails sobre anúncios em novos grupos."
+        quiet: "Você não receberá e-mail sobre novos grupos."
+  close_explanation_modal:
+    aria_label: Fechar discussão
+    close_thread: Fechar discussão
+    body_header: |
+        <p>Fechar discussões antigas ou irrelevantes para removê-las da visualização e indicar que a discussão foi fechada.</p>
+  mute_explanation_modal:
+    aria_label: Silenciar tópico
+    mute_thread: Calar tópico
+    image_alt: Opção de tópicos silenciados na barra lateral
+  dismiss_explanation_modal:
+    aria_label: Dispensar tópico
+    dismiss_thread: Dispensar tópico
+    body_html: |
+        <p>Ao dispensar um tópico, o mesmo é removido dos itens não-lidos. Caso ocorra qualquer nova atividade no tópico, o mesmo será novamente marcado como não-lido.</p>
+  inbox:
+    clear: 'Limpar'
+    latest: 'Último'
+    unread: 'Não lida'
+    closing_in: 'Encerrando'
+  sign_up_form:
+    password_label: 'Senha:'
+    password_confirmation_label: 'Mesma senha novamente:'
+  signed_out_modal:
+    aria_label: 'Sessão encerrada'
+    title: "Sua sessão foi encerrada"
+    ok: "Ok"
+  comment_reply_form:
+    aria_label: 'Adicionar resposta'
+  comment_form:
+    aria_label: 'Adicionar um comentário'
+    attachments:
+      add_attachment: 'Anexar um arquivo'
+      remove_attachment: 'Remover anexo'
+    messages:
+      created: 'Comentário adicionado'
+      replied: '{{name}} recebeu notificação'
+      updated: 'Comentário atualizado'
+      destroyed: 'Comentário apagado'
+    say_something: Diga algo...
+    edit_comment: 'Editar comentários'
+    delete_comment: 'Apagar comentário'
+    cancel_reply: 'Cancelar Resposta'
+    confirm_delete_message: 'Você tem certeza que deseja apagar este comentário?'
+    confirm_delete: 'Apagar comentário'
+    in_reply_to: "Responder a(o) {{name}}"
+    write_a_comment: "Escreva um comentario..."
+    submit_button:
+      label: 'Postagem'
+    private_privacy_notice: 'Seu comentário será visível apenas para os membros de {{groupName}}.'
+    public_privacy_notice: 'Seu comentário será visível para qualquer pessoa na web'
+    sign_in: "Entre para se juntar à conversa"
+  sidebar:
+    recent_threads: 'Tópicos recentes'
+    muted_threads: 'Tópicos silenciados'
+    start_group: 'Novo grupo'
+    explore: 'Grupos públicos'
+    start_thread: Novo tópico
+    start_decision: Nova decisão
+    aria_labels:
+      heading: 'Barra lateral'
+      threads_list: 'Ações dos tópicos'
+      groups_list: 'Grupos'
+      user_list: 'Ações do usuário'
+  navbar:
+    recent_title: 'Ir para o painel'
+    unread_title: 'Ver atividades não lidas'
+    start_thread: 'Novo tópico'
+    notifications: 'Painel de notificações'
+    search:
+      label: 'Campo de pesquisa; pesquisa por grupos e tópicos'
+      results_aria_label: 'Resultados da busca'
+      no_results: 'Nenhum tópico encontrado'
+      close: 'Fechar painel de pesquisa'
+      placeholder: 'Pesquisar'
+      loading: 'Carregando resultados...'
+      discussions: 'Tópicos'
+      proposals: 'Propostas'
+      comments: 'Comentários'
+    sign_in: 'Entrar'
+    toggle_sidebar: 'Alternar barra lateral'
+    logo_title: 'Início'
+  user_dropdown:
+    edit_profile: 'Editar perfil'
+    email_settings: 'Configurações de email'
+    help: 'Ajuda'
+    contact_site_name: 'Contato {{site_name}}'
+    sign_out: 'Sair'
+  membership_dropdown:
+    invitation_resent: "Convide reenviado"
+    make_coordinator: 'Tornar coordenador(a)'
+    cancel_invitation: Cancelar convite
+  start_menu:
+    label: 'Ações do usuário'
+    title: 'Ação'
+    start_group: 'Iniciar Grupo'
+    start_subgroup: 'Iniciar Subgrupo'
+    start_thread: 'Iniciar Tópico'
+    invite_people: 'Convidar Pessoas'
+  notifications:
+    header: "Notificações"
+    no_notifications: "Você não possui nenhuma notificação."
+    publish_outcome: "Publicar um resultado"
+  position_buttons_panel:
+    heading: Dê a sua opinião
+  extend_proposal_form:
+    aria_label: Mudar hora de encerramento
+    title: 'Mudar hora de encerramento'
+    success: 'Hora de encerramento da proposta atualizada'
+    submit: 'Atualizar hora de encerramento'
+  discussion_record:
+    created: 'O tópico {{title}} foi criado com sucesso em {{groupName}}'
+    updated: 'Mudanças salvas para {{title}}'
+  discussion_form:
+    aria_label: 'Formulário de tópico'
+    messages:
+      created: 'Tópico iniciado'
+      updated: 'Tópico atualizado'
+    new_discussion_title: 'Iniciar novo tópico'
+    edit_discussion_title: 'Editar tópico'
+    group_label: 'Grupo'
+    group_placeholder: 'Selecionar um grupo'
+    title_label: 'Título'
+    title_placeholder: 'Qual tópico você quer discutir?'
+    context_label: 'Contexto'
+    context_placeholder: 'Forneça informações suficientes para que o grupo tenha uma discussão produtiva. Pode ser atualizado enquanto a discussão avança'
+    privacy_label: 'Privacidade'
+    privacy_public: 'Qualquer um pode ver o tópico. Apenas membros podem participar.'
+    privacy_private: 'A discussão será visível apenas para os membros de {{group}}.'
+    privacy_organisation: 'A discussão será visível para os membros de {{parent}} e membros de {{group}}.'
+  announcement:
+    form:
+      outcome_announced:
+        title: Compartilhar resultado
+      anyone_can_participate: Qualquer pessoa com o link pode participar
+    group_form:
+      members_count: '{{count}} pessoas serão notificadas'
+  action_dock:
+    react: Adicionar uma reação
+    add_resource: Adicionar como anexo
+    edit_group: Editar contexto do grupo
+    add_comment: 'Comentario '
+    copy_url: Copiar URL
+    edit_thread: Editar contexto
+    translate_thread: Traduzir contexto
+    edit_stance: Mudar seu voto
+    translate_stance: Traduzir voto
+    edit_comment: 'Editar comentário '
+    delete_comment: Deletar comentário 
+    reply_to_comment: Responder
+    translate_comment: 'Traduzir comentario '
+    show_history: Mostrar histórico de edições
+  cover_photo_form:
+    aria_label: 'Formulário de modificação da foto de capa'
+    heading: 'Nova foto da capa'
+    upload_link: 'Carregar nova foto da capa'
+    image_size_helptext: 'O tamanho ideal de imagem é de 1400 x 320px'
+    upload_success: 'Foto da capa atualizada com sucesso'
+  logo_photo_form:
+    aria_label: 'Formulário de modificação da foto de grupo'
+    heading: 'Nova logo do grupo'
+    upload_link: 'Carregar nova logo do grupo'
+    image_size_helptext: 'O tamanho ideal da imagem é de 100x100px'
+    upload_success: 'Logo atualizada com sucesso'
+  join_group_button:
+    join_group: Entrar no grupo
+    membership_requested: Solicitação de membro pendente
+    messages:
+      joined_group: 'Você agora é um membro do(a) {{group}}'
+  membership_request_form:
+    aria_label: Formulário de solicitação de inclusão de membro
+    heading: Pedir para entrar no grupo
+    name_label: Nome
+    email_label: E-mail
+    introduction_label: Por que você gostaria de entrar?
+    submit_button: Pedir para fazer parte
+    introduction_over_limit: Resposta muito longa
+    messages:
+      membership_requested: 'Você solicitou adesão ao(à) {{group}}'
+  revision_history_modal:
+    aria_label: Histórico de revisões
+    started_by: 'Iniciado por <strong>{{name}}</strong>'
+    edited_by: 'Editado por <strong>{{name}}</strong>'
+    posted: Postado
+    current_revision: Último
+  reactions_input:
+    add_your_reaction: Adicione sua reação
+  reactions_display:
+    more_reactions: "{{count}} mais"
+    you: "Você"
+    you_and_name: "Você e {{name}}"
+    you_and_name_and_count_more: "Você, {{name}} e {{count}} mais"
+    name_and_count_more: "{{name}} e {{count}} mais"
+  group_page:
+    messages:
+      privacy:
+        members: 'Este grupo agora está visível apenas para membros'
+        parent_members: 'Este grupo agora está visível apenas para membros da sua organização'
+        public: 'Este grupo agora é visível publicamente'
+      leave_group_success: 'Você deixou este grupo'
+      archive_group_success: 'Este grupo foi desativado'
+    group_logo: 'Logo do grupo'
+    new_photo: 'nova foto'
+    new_cover_photo: 'Carregar nova foto da capa'
+    new_group_logo: 'Carregar nova logo do grupo'
+    discussions_placeholder: 'Um tópico é o lugar onde todos podem discutir um tema e tomar decisões juntos.'
+    members_placeholder: 'Você é a única pessoa aqui: convide outras para se juntar a você!'
+    member_options: Opçoes de membros
+    subgroups: 'Subgrupos'
+    invite_people: 'Convidar'
+    visibility_label: 'Visibilidade'
+    options_label: 'Opções'
+    options:
+      label: 'Opções'
+      edit_group: 'Editar Configurações do Grupo'
+      manage_members: 'Gerenciar Membros'
+      add_subgroup: 'Adicionar Subgrupo'
+      manage_subscription: 'Gerenciar Inscrições do Grupo '
+      email_settings: 'Configurações de e-mail'
+      leave_group: 'Sair do Grupo'
+      deactivate_group: 'Desativar Grupo'
+    volume:
+      loud: Enviar e-mail sempre que houver atividade.
+      loud_aria_description: O seu volume de notificação para este grupo está definido como Alto. Você receberá um e-mail sempre que houver atividade.
+      loud_message: Você receberá um e-mail sobre todas as atividades em "{{name}}."
+      normal: 'Enviar apenas e-mails de atividades importantes: Novos tópicos e propostas, resultados etc.'
+      normal_aria_description: O seu volume de notificação para este grupo está definido como Normal. Você receberá um e-mail quando houver atividades importantes, como quando alguém inicia um novo tópico, faz uma proposta ou define um resultado.
+      normal_message: 'Você só receberá e-mail sobre eventos importantes em "{{name}}".'
+      quiet: Não enviar e-mail sobre esse grupo. Atividades serão exibidas no painel.
+      quiet_aria_description: O seu volume de notificação para este grupo está definido como Quieto. Você não receberá e-mail sobre atividades deste grupo. Eles serão mostradas no seu Painel.
+      quiet_message: 'Você não receberá e-mail sobre as atividades em "{{name}}".'
+      mute: Esconder este grupo do painel e não notificar a não ser quando @mencionado.
+      mute_aria_description: O seu volume de notificação para este grupo está definido como Mudo. Você não receberá e-mail, a não ser que mencionem você, e atividades do grupo não serão mostradas no seu Painel.
+      mute_message: '"{{name}}" foi removido do seu painel.'
+    privacy:
+      private: 'Privacidade: Este grupo é visível apenas para membros'
+      parent_members: 'Privacidade: Este grupo é visível para os membros de {{parentGroupName}} e os membros de {{groupName}}'
+      public: 'Privacidade: Este grupo é visível na web'
+      aria_label: 'Privacidade do grupo: {{privacy}}'
+  description_card:
+    title: 'Descrição do grupo'
+    placeholder: 'Coordenadores de grupo podem usar esta área para descrever a finalidade do grupo, para que assim todos saibam porque estão aqui.'
+    messages:
+      description_updated: 'Descrição atualizada'
+  leave_group_form:
+    aria_label: 'Sair do grupo'
+    title: 'Sair do grupo'
+    question: 'Você tem certeza que deseja sair deste grupo?'
+    submit: 'Sim, sair deste grupo'
+    cannot_leave_group: 'Você não pode deixar este grupo porque você é o último coordenador. Você precisa escolher um outro coordenador ou desativar o grupo.'
+    add_coordinator: 'Adicionar um coordenador'
+  archive_group_form:
+    aria_label: 'Desativar grupo'
+    title: 'Desativar grupo'
+    question: 'Você tem certeza que deseja desativar este grupo?'
+    submit: 'Sim, Desative este grupo'
+  group_form:
+    aria_label: 'Formulário do grupo'
+    start_group_heading: 'Iniciar um grupo'
+    start_subgroup_heading: 'Iniciar um subgrupo'
+    edit_group_heading: 'Editar configurações do grupo'
+    edit_subgroup_heading: 'Editar configurações do subgrupo'
+    group_name: 'Nome do Grupo'
+    group_name_placeholder: 'Como você quer chamar o seu grupo?'
+    subgroup_name: 'Nome do Subgrupo'
+    description: 'Descrição'
+    description_placeholder: 'Descreva o propósito do seu grupo para que seus membros saibam a razão de estarem aqui.'
+    privacy_statement:
+      private_to_group: 'Nome e descrição estarão visíveis apenas para membros'
+      private_to_parent_members: 'Nome e descrição estarão visíveis para membros de {{parent}}'
+    privacy: 'Privacidade'
+    group_privacy_is_open_description: "Qualquer pessoa pode encontrar o grupo e pedir para participar. Somente membros podem ver quem está no grupo. Todos os tópicos são públicos."
+    group_privacy_is_closed_description: "Qualquer pessoa pode encontrar o grupo e pedir para participar. Somente membros podem ver quem está no grupo. Todos os tópicos são privados."
+    group_privacy_is_closed_public_threads_description: "Qualquer pessoa pode encontrar o grupo e pedir para participar. Somente membros podem ver quem está no grupo. Tópicos podem ser públicos ou privados."
+    group_privacy_is_secret_description: "Somente membros convidados podem encontrar o grupo, ver quem faz parte e ver os tópicos."
+    confirm_change_to_secret: "Se você continuar, todos os tópicos neste grupo e seus subgrupos serão privados."
+    confirm_change_to_secret_subgroup: 'Se você continuar, todos os tópicos serão privados.'
+    confirm_change_to_public: 'Se você continuar, os tópicos neste grupo serão públicos na web.'
+    confirm_change_to_private_discussions_only: 'Se você continuar, qualquer tópico público deste grupo será privado.'
+    subgroup_privacy_is_open_description: "Qualquer pessoa pode encontrar este subgrupo e pedir para participar. Somente membros podem ver quem está no grupo. Todos os tópicos são públicos."
+    subgroup_privacy_is_closed_description: "Qualquer pessoa pode encontrar este subgrupo e pedir para participar. Somente membros podem ver quem está no grupo. Todos os tópicos são privados."
+    subgroup_privacy_is_closed_public_threads_description: "Qualquer pessoa pode encontrar este subgrupo e pedir para participar. Somente membros podem ver quem está no grupo. Tópicos podem ser públicos ou privados."
+    subgroup_privacy_is_closed_secret_parent_description: "Membros do {{parent}} podem encontrar este subgrupo e pedir para participar. Todos os tópicos são privados. Somente membros podem ver quem está no grupo."
+    subgroup_privacy_is_secret_description: 'Somente membros convidados podem encontrar este subgrupo, ver quem faz parte e ver os tópicos.'
+    advanced_settings: "Configurações avançadas"
+    how_do_people_join: "Como as pessoas participam?"
+    membership_granted_upon_request: 'Qualquer um pode entrar no grupo'
+    membership_granted_upon_approval: 'Qualquer pessoa pode pedir para participar, mas deve ser aprovada.'
+    thread_privacy: 'Privacidade do tópico'
+    public_threads: 'Somente tópicos públicos'
+    public_discussions_subgroup: 'Qualquer pessoa em {{parentGroupName}} pode ver as discussões'
+    public_or_private_threads: 'Permitir tópicos públicos e privados'
+    private_threads: 'Apenas os membros podem ver discussões'
+    permissions: 'Permissões'
+    allow_public_threads: 'Permitir tópicos públicos neste grupo.'
+    parent_members_can_see_discussions: 'Membros de {{parent}} podem ver tópicos privados.'
+    members_can_add_members: 'Membros podem convidar pessoas e aprovar pedidos de adesão.'
+    members_can_create_subgroups: 'Membros podem criar subgrupos.'
+    members_can_edit_discussions: 'Membros podem atualizar o contexto e o título de qualquer discussão.'
+    members_can_edit_comments: 'Membros podem editar seus próprios comentários a qualquer momento.'
+    members_can_start_discussions: 'Membros podem iniciar novos tópicos.'
+    members_can_vote: 'Membros podem votar em propostas.'
+    members_can_raise_motions: 'Membros podem iniciar propostas.'
+    submit_start_group: 'Iniciar grupo'
+    submit_start_subgroup: 'Iniciar subgrupo'
+    submit_update: 'Atualizar configurações'
+    messages:
+      group_created: 'Grupo iniciado'
+      group_updated: 'Grupo atualizado'
+  membership_requests_card:
+    heading: 'Pedidos para inclusão de membros'
+    manage_requests: Gerenciar solicitações
+    manage_requests_with_count: Gerenciar solicitações ({{count}})
+  documents_page:
+    title: Anexos
+    fragment_placeholder: Procurar anexos
+    add_document: Adicionar anexo
+    confirm_remove_title: Remover anexo
+    document_removed: Anexo removido
+  document:
+    list:
+      title: Anexos
+    modal:
+      title: Adicionar como anexo
+    form:
+      title_label: Nome
+    flash:
+      success: Anexo salvo
+      destroyed: Anexo removido
+  membership_requests_page:
+    heading: Solicitações para inclusão de membros
+    approve: Aprovar
+    ignore: 'Ignorar '
+    no_pending_requests: Não há novos pedidos de inclusão de membros para este grupo.
+    no_previous_requests: Não há pedidos anteriores de inclusão de membros para este grupo.
+    previous_requests: Pedidos Anteriores
+    previous_request_response: '{{response}} por {{responder}}'
+    messages:
+      request_approved_success: Inclusão de membro aprovada
+      request_ignored_success: Solicitação de inclusão de membro ignorada
+  group_previous_proposals_card:
+    heading: Propostas anteriores
+    see_more: Veja mais
+  invitation_form:
+    aria_label: 'Formulário de convite'
+    invite_people: 'Convidar Pessoas'
+    group: 'Grupo'
+    group_placeholder: 'Selecionar um grupo'
+    shareable_link: 'Link compartilhável'
+    copy_link: 'Copia'
+    email_addresses: 'Endereço de e-mail'
+    email_addresses_placeholder: 'e.g. helperbot@loomio.org, friendlybot@loomio.org'
+    shareable_link_explanation: 'Copie o link e envie para todos que queiram participar do grupo. Isso permitirá que eles tenham acesso a todos os tópicos do grupo.'
+    add_custom_message: 'Faça seu convite pessoal,'
+    add_custom_message_link: 'adicionar uma mensagem personalizada.'
+    custom_message: 'Mensagem personalizada'
+    custom_message_placeholder: 'Digite uma mensagem pessoal para incluir no convite.'
+    team_invitation_message: 'Alternativamente,'
+    team_invitation_link: 'link para compartilhar.'
+    add_members: 'Adicionar membros'
+    from_parent_group: 'de {{name}}.'
+    send: 'Enviar'
+    done: 'Pronto'
+    messages:
+      invitation_sent: 'Convite enviado.'
+      invitations_sent: '{{count}} convites enviados.'
+      max_invitations: 'Se você quiser enviar mais de 100 convites, use um link de equipe.'
+  add_members_modal:
+    aria_label: 'Adicionar membros do grupo principal'
+    heading: 'Adicionar pessoas de {{name}}'
+    add_members: 'Adicionar membros'
+    user_added_to_subgroup: '{{name}} adicionado ao Subgrupo'
+    users_added_to_subgroup: '{{count}} Usuários adicionados ao Subgrupo'
+    no_members_to_add: 'Todos os membros de {{parent}} pertencem a este subgrupo'
+  memberships_page:
+    members: 'Membros'
+    name_label: 'Nome'
+    coordinator_label: 'Coordenador(a)'
+    remove_member_label: 'Remover'
+    fragment_placeholder: 'Filtrar usuários por nome ou nome de usuário...'
+    messages:
+      remove_member_success: 'Removido {{name}}'
+      make_admin_success: '{{name}} agora é um coordenador'
+      remove_admin_success: '{{name}} não é mais um coordenador'
+    remove_admin_from_self:
+      question: 'Você tem certeza que não deseja mais ser coordenador?'
+  membership_remove_modal:
+    invitation:
+      title: Cancelar convite
+      flash: Convite cancelado
+      submit: Cancelar convite
+    membership:
+      title: Remover membro
+      submit: Remover membro
+  pending_invitations_card:
+    heading: Convites pendentes
+    email: E-mail
+    invitation_link: Link do convite
+    sent: Enviar
+    copy_url: Copiar URL
+  cancel_invitation_form:
+    heading: Cancelar convite
+    question: Você tem certeza que deseja cancelar este convite?
+    submit: "Sim, cancelar convite"
+    cancel: 'Não'
+    messages:
+      success: Convite cancelado
+  user_page:
+    contact_user: 'Contato {{name}}'
+    location_field: 'Local: {{value}}'
+    online_field: 'Online: {{value}}'
+  contact_request_form:
+    modal_title: "Email {{name}}"
+    message_placeholder: Se apresente e compartilhe porquê você gostaria de entrar em contato.
+    helptext: "{{name}} receberá um email com seu nome, endereço de email e mensagem "
+    email_sent: "Email enviado a {{name}}"
+  profile_page:
+    messages:
+      updated: 'Perfil atualizado'
+      picture_changed: 'Imagem do perfil atualizada'
+      password_changed: 'Senha atualizada'
+      deactivated: 'Conta desativada'
+    change_picture_link: 'Mudar imagem'
+    deactivate_user_link: 'Desativar conta...'
+    profile: 'Perfil'
+    edit_profile: 'Editar Perfil'
+    picture_label: 'Imagem'
+    name_label: 'Nome'
+    username_label: 'Nome de usuário'
+    email_label: 'E-mail'
+    short_bio_label: 'Apresentação'
+    locale_label: 'Idioma'
+    update_profile: 'Atualizar perfil'
+    deactivate_account: 'Desativar conta'
+    help_translate: "Nos ajude a traduzir a Loomio"
+  change_picture_form:
+    aria_label: 'Formulário para mudar foto'
+    title: 'Mudar foto'
+    use_initials: 'Usar iniciais'
+    use_gravatar: 'Usar gravatar'
+    use_uploaded: 'Enviar uma nova foto'
+  change_password_form:
+    change_password_title: Mude sua senha
+    change_password: Mudar senha
+    password_changed: Sua senha foi atualizada
+  deactivation_modal:
+    aria_label: 'Desativar conta'
+    introduction: 'Quando você desativa sua conta:'
+    no_longer_group_member: 'Você deixará de ser listado como membro de todos os grupos'
+    name_removed: 'Comentários, propostas e discussões feitas por você permanecerão, mas seu nome será removido dos mesmos'
+    no_emails: 'Você não receberá mais notificações por email'
+    submit: 'Sim, eu quero desativar'
+  deactivate_user_form:
+    aria_label: 'Confirmação de desativação da conta'
+    title: 'Desativar conta'
+    question: 'Você pode nos contar porque está desativando?'
+    placeholder: 'Responder a essa pergunta é opcional. Qualquer informação que você possa compartilhar irá nos ajudar a melhorar :) '
+    submit: 'Desativar conta'
+  email_settings_page:
+    header: Configurações de e-mail
+    all_groups: Configurações para todos os grupos
+    daily_summary_label: E-mail de resumo diário
+    daily_summary_description: "Toda manhã você receberá um email com qualquer atividade que você não viu no dia anterior. Isso facilita com que você fique atualizado(a) com as atividades que estão rolando."
+    on_participation_label: Inscrever-se na participação
+    on_participation_description: "Quando você participar de uma discussão, todas as atividades serão enviadas por e-mail para você imediatamente."
+    announcement_label: Anúncios
+    update_settings: Salvar mudanças
+    specific_groups: Configurações para grupos específicos
+    default_settings:
+      loud_description: "Quando você entrar em um novo grupo, você receberá e-mail <strong>sempre que houver atividade</strong>."
+      normal_description: "Quando você entrar em um novo grupo, você receberá e-mails sobre <strong>novos tópicos e propostas</strong>."
+      quiet_description: "Quando você entrar em um novo grupo, você <strong>não receberá e-mails sobre atividades</strong>."
+    edit: Editar
+    messages:
+      updated: Configurações de e-mail atualizadas
+  dashboard_page:
+    aria_label: 'Painel'
+    no_groups:
+      show_all: Você não possui nenhum tópico recente, porque você não é membro de nenhum grupo.
+      show_muted: Você não possui nenhum tópico silenciado, porque você não é membro de nenhum grupo.
+      start: Comece
+      or: ou
+      join_group: <a href="/explore">participe</a> de um grupo para ver os tópicos.
+    no_threads:
+      show_all: Você não tem tópicos recentes.
+      show_proposals: Não há propostas ativas no momento.
+      show_muted: Você não tem nenhum tópico mudo.
+    view_recent: Ver todos os tópicos recentes?
+    load_more: Carregar mais tópicos
+    mark_as_read: Marcar como lida
+    dismiss: Dispensar
+    explain_mute:
+      title: Você ainda não silenciou nenhum tópico.
+      explanation_html: |
+          Silenciar é uma forma de ocultar os tópicos que não te interessam.
+          Silenciar significa que você não verá o tópico em <strong>Recentes</strong> ou <strong>Não-lidos</strong>, e você não será notificado sobre as atividades deste tópico, como propostas.
+          Você somente será alertado se alguém  <strong>@mencionar</strong> o seu nome.
+      instructions: 'Para silenciar um tópico, passe o mouse sobre ele e clique no ícone silenciar.'
+      see_muted_html: 'Para ver seus tópicos silenciados, clique <strong>"Silenciado"</strong>. Você pode ativar o som passando o mouse sobre e clicando no mesmo ícone.'
+    filtering:
+      filter_threads: Filtrar Tópicos
+      filter_threads_aria_label: Filtrar Tópicos
+      dropdown_heading: Filtrar painel
+      all: Tópicos Recentes
+      all_aria_label: No momento, mostrando tópicos recentes
+      all_description: Ver tópicos recentes
+      proposals: Propostas
+      proposals_aria_label: No momento, mostrando tópicos com propostas ativas
+      proposals_description: Ver apenas tópicos com propostas ativas
+      muted_aria_label: No momento, mostrando tópicos mudos
+      muted_description: Ver apenas tópicos que estão mudos
+    aria_thread:
+      unread: '{{count}} itens não lidos.'
+      current_proposal: 'Proposta atual: {{name}}.'
+      you_voted: 'Você votou: {{position}}.'
+    thread_preview:
+      you_voted: 'Você votou {{position}}'
+      undecided: 'Você está indeciso'
+    threads_from:
+      group: 'Tópicos de'
+      starred: 'Tópicos com estrela'
+      today: 'Hoje'
+      yesterday: 'Ontem'
+      thisweek: 'Esta semana'
+      thismonth: 'Este mês'
+      older: 'Mais de um mês'
+  inbox_page:
+    no_threads: Legal! Você leu todos os tópicos na sua caixa de entrada.
+    unread_threads: Tópicos Não Lidos
+    view_more: Ver Mais
+    no_groups:
+      explanation: Você não possui nenhum tópico não-lido, porque você não é membro de nenhum grupo.
+      start: Comece
+      or: ou
+      join_group: <a href="/explore">participe</a> de um grupo para ver os tópicos.
+  discussion:
+    activity: 'Atividade'
+    activity_placeholder: 'Ainda sem atividade!'
+    load_previous: 'Carregar atividade anterior'
+    started_by: 'Iniciado por <strong>{{name}}</strong>'
+    volume:
+      unmute_message: 'Ativado o som do tópico'
+  activity_card:
+    beginning: Início
+    unread: Não lida
+    latest: Último
+    attachment_display:
+      aria_label: 'Arquivo anexo:'
+      image_alt: 'Imagem anexa'
+  thread_group:
+    aria_label: 'Nome do grupo'
+  thread_context:
+    aria_label: 'Contexto do tópico'
+    thread_options: 'Opções do tópico'
+    email_settings: 'Configurações de e-mail'
+    edit: 'Editar'
+    edit_thread: 'Editar'
+    close_thread: 'Encerrar'
+    pin_thread: 'Fixar'
+    unpin_thread: 'Desafixar'
+    mute_thread: 'Silenciar'
+    move_thread: 'Mover'
+    print_thread: 'Imprimir'
+    delete_thread: 'Apagar'
+    add_comment: 'Comentario '
+  delete_thread_form:
+    aria_label: 'Apagar tópico'
+    title: Apagar tópico
+    body: Você tem certeza de que deseja apagar este tópico?
+    confirm: 'Apagar tópico'
+    messages:
+      success: Tópico apagado
+  move_thread_form:
+    aria_label: Mover tópico
+    title: Mover tópico
+    body: 'Grupo de destino:'
+    confirm: Mover tópico
+    confirm_change_to_private_thread: '{{groupName}} é um grupo aberto. Se você continuar, este tópico será público.'
+    messages:
+      success: Tópico foi movido para {{name}}
+  delete_comment_dialog:
+    title: 'Apagar comentário'
+    question: 'Você tem certeza que deseja apagar este comentário?'
+    confirm: 'Apagar comentário'
+  new_comment_item:
+    aria_label: 'Comentado por {{author}}'
+    context_menu:
+      aria_label: 'Opções de comentários'
+      edit_comment: 'Editar comentários'
+      delete_comment: 'Apagar comentário'
+    in_reply_to: 'Em resposta a <strong>{{recipient}}</strong>'
+    edited: 'Editado'
+  new_vote_item:
+    agree: 'concordou'
+    abstain: 'absteve'
+    disagree: 'discordou'
+    block: 'bloqueou'
+    agree_with_statement: 'concordou: <span>{{statement}}</span>'
+    abstain_with_statement: 'absteve: <span>{{statement}}</span>'
+    disagree_with_statement: 'discordou: <span>{{statement}}</span>'
+    block_with_statement: 'bloqueou: <span>{{statement}}</span>'
+  new_proposal_item:
+    author_created_proposal: 'iniciou uma proposta: <span>{{title}}</span>'
+  proposal_closed_item:
+    proposal_closed: 'A proposta foi encerrada: <span>{{title}}</span>'
+  proposal_closed_by_user_item:
+    proposal_closed_by_user: 'encerrou a proposta: <span>{{title}}</span>'
+  proposal_edited_item:
+    name: 'atualizou o título proposta: <span>{{title}}</span>'
+    description: 'atualizou a descrição da proposta'
+    closing_at: 'atualizou a proposta para fechar em <span>{{time}}</span>'
+    description_name: 'atualizou o título e a descrição da proposta'
+    closing_at_name: 'atualizou o título da proposta e a hora de encerramento'
+    closing_at_description: 'atualizou o descrição da proposta e a hora de encerramento'
+    closing_at_description_name: 'atualizou título, descrição e hora de encerramento da proposta'
+  proposal_outcome_created_item:
+    proposal_outcome_created: 'publicou um resultado da proposta:'
+  proposal_outcome_updated_item:
+    proposal_outcome_updated: 'atualizou o resultado da proposta:'
+  discussion_edited_item:
+    attachment_ids: 'atualizou os anexos do tópico'
+    title: 'atualizou o título do tópico: <span>{{title}}</span>'
+    description: 'atualizou o contexto do tópico'
+    description_title: 'atualizou título e contexto do tópico'
+    private: 'atualizou a privacidade do tópico para'
+    public_to_private: 'privado'
+    private_to_public: 'público'
+    private_title: 'atualizou título e privacidade do tópico'
+    description_private: 'atualizou contexto e privacidade do tópico'
+    description_private_title: 'atualizou título, contexto e privacidade do tópico'
+  contact_message_form:
+    contact_us: 'Contato'
+    name_label: 'Seu nome'
+    name_placeholder: 'Digite o seu nome...'
+    email_label: 'Seu endereço de e-mail'
+    email_placeholder: 'Digite seu endereço de e-mail...'
+    message_label: 'Sua mensagem'
+    message_placeholder: 'Sua mensagem...'
+    send_message: 'Enviar Mensagem'
+  hint:
+    context: 'Dicas para usar o painel de contexto'
+    discussion: 'Dicas para iniciar uma discussão envolvente'
+    invitation: 'Dicas para escrever um ótimo convite'
+    proposal: 'Dicas para escrever uma proposta clara'
+    vote: 'Você pode mudar sua posição a qualquer momento'
+  explore_page:
+    single_search_result: "1 grupo público que corresponde a <strong>{{searchTerm}}:</strong>"
+    multiple_search_results: "{{resultCount}} grupos públicos correspondentes <strong>{{searchTerm}}:</strong>"
+    no_results_found: "<strong>Não é possível localizar o grupo que você está procurando?</strong> Se a privacidade de um grupo está definida como \"secreto\", não vai aparecer aqui. Se você conhece quem coordena o grupo, você poderia pedir um convite."
+  global:
+    messages:
+      reload: 'Recarregar'
+  emoji_picker:
+    search: "Encontre um emoji..."
+    no_emojis_found: "Nenhum emoji encontrado para '{{term}}'!"
+  authorized_apps_page:
+    title: Apps Autorizados
+    no_applications: "Você ainda não autorizou nenhum aplicativo de terceiros."
+    revoke: Revogar
+  registered_apps_page:
+    title: Apps Registrados
+    no_applications: "Você ainda não tem nenhum aplicativo OAuth! Clique abaixo para criar um."
+    name: Nome
+    redirect_uris: Redirecionar URIs
+    create_new_application: Aplicativo Novo
+  registered_app_page:
+    uid: ID do Aplicativo
+    secret: Segredo do Aplicativo
+  registered_app_form:
+    new_application_title: Novo Aplicativo
+    edit_application_title: Atualizar Aplicativo
+    name_label: Nome
+    name_placeholder: Como se chama o seu aplicativo?
+    redirect_uri_label: Redirecionar Uris
+    redirect_uri_placeholder: "O URI de retorno de chamada para o seu aplicativo, e.g.: https://myapplication.com/loomio/callback"
+    redirect_uri_note: (uma linha por URI, use 'urn:ietf:wg:oauth:2.0:oob' para testes locais)
+    new_application_submit: Criar Aplicativo
+    edit_application_submit: Atualizar Aplicativo
+    messages:
+      logo_changed: Logo atualizado.
+      created: "Criado '{{name}}'"
+      updated: "Atualizado '{{name}}'"
+  remove_app_form:
+    title: Desativado {{name}}
+    question: "Tem certeza de que deseja desativar o aplicativo '{{name}}'? Essa ação não pode ser desfeita."
+    submit: Desativar
+    messages:
+      success: "'{{name}}' foi desativado com sucesso"
+  revoke_app_form:
+    title: Revogar acesso para {{name}}
+    question: "Tem certeza de que deseja tirar a permissão de '{{name}}' para usar a sua conta?"
+    submit: Revogar Acesso
+    messages:
+      success: "'{{name}}' não poderá mais usar a sua conta."
+  decision_tools_card:
+    title: Ferramentas de decisão
+    proposal_title: Proposta
+    count_title: Checar
+    poll_title: Votação
+    meeting_title: Tempo de votação
+    ranked_choice_title: Escolha classificada
+  poll_common:
+    your_response: Sua resposta
+    change_your_response: Modifique sua resposta
+    reason: Motivo
+    reason_placeholder: Algum comentário a mais?
+    message: Mensagem
+    results: Resultados
+    responses: Respostas
+    vote: Votar
+    votes: Votos
+    update_outcome: Atualizar resultado
+    outcome: Resultado
+    change_your_stance: Modifique seu voto
+    details: Detalhes
+    participant_name: Seu nome
+    participant_email: Endereço de e-mail
+    share_proposal: Compartilhar proposta
+    start_poll: Inicie uma decisão
+  poll_common_attachment_form:
+    label: Anexos
+  poll_common_card:
+    show_results: Mostrar resultados
+  poll_common_select_group:
+    loomio_group: Grupo
+  poll_common_notify_group:
+    notify_group: Anúncio
+    members_helptext: Seu grupo não será notificado
+    members_count: "{{count}} pessoas serão notificadas"
+  poll_common_calendar_invite:
+    event_summary: Resumo
+  poll_common_settings:
+    multiple_choice:
+      title: Múltipla escolha
+  poll_common_close_form:
+    close_proposal: Encerrar proposta
+    proposal_closed: Proposta encerrada
+  poll_common_closing_at_field:
+    closing: Encerrando
+  poll_card:
+    started_by: Iniciado por {{name}}
+  poll_common_votes_panel:
+    change_results_order: Mudar ordem dos resultados
+  poll_common_set_outcome_panel:
+    share_outcome: Compartilhar resultado
+  poll_common_outcome_form:
+    new_title: Compartilhar um resultado
+    update_title: Atualizar resultado
+    outcome_created: Resultado criado
+    outcome_updated: Resultado atualizado
+    submit: Compartilhar resultado
+  poll_common_form:
+    title: Título
+    details: Detalhes
+    options: Opções
+    closing: Encerrando
+    closed: Fechado
+    start: Começo
+    update: Atualizar
+  poll_proposal_form:
+    tool_tip_collapsed: Busque um acordo coletivo
+    start_header: Iniciar proposta
+    edit_header: Editar proposta
+    title_placeholder: 'Exemplo: Vamos para a Lua!'
+    details_placeholder: Forneça informações suficientes para que todos saibam exatamente o que significa concordar ou discordar
+    proposal_created: Proposta iniciada
+    proposal_updated: Proposta atualizada
+  poll_poll_form:
+    tip: Medir a popularidade de diferentes opções
+    title_placeholder: 'Exemplo: Onde você quer passar o feriado?'
+    add_option_placeholder: Adicionar opção
+    remove_option: Remover opção
+  poll_dot_vote_form:
+    add_option_placeholder: Adicionar opção
+  poll_proposal_vote_form:
+    default_reason_placeholder: Explique seu raciocínio por favor
+    agree_reason_placeholder: O que você gosta na proposta e como ela pode beneficiar o grupo?
+    block_reason_placeholder: Explique sua objeção a esta proposta e por que ela não deveria ir adiante
+    stance_updated: Voto atualizado
+    vote: Votar
+  poll_proposal_options:
+    agree: Concordo
+    agree_verb: "concordou"
+    agree_meaning: Esta proposta é suficientemente boa para ser adotada pelo grupo
+    abstain: Abstenção
+    abstain_verb: "absteve"
+    disagree: Discordo
+    disagree_verb: "discordou"
+    disagree_meaning: Eu não apoio a proposta. Ela não deveria ir adiante.
+    block: Bloqueio
+    block_verb: "bloqueada"
+  poll_count_options:
+    'yes': 'Sim'
+    'no': 'Não'
+  poll_count_vote_form:
+    reason_label: Mensagem
+    reason_placeholder: Deixe uma mensagem caso queira
+    stance_updated: Voto atualizado
+  poll_meeting_chart_panel:
+    total: Total
+  poll_poll_vote_form:
+    stance_updated: Voto atualizado
+  poll_meeting_vote_form:
+    your_response: Quando você pode participar?
+  poll_dot_vote_vote_form:
+    stance_updated: Voto atualizado
+  poll_admin_page:
+    title: Administrador - {{title}}
+  poll_common_publish_facebook_preview:
+    link: link
+  poll_common_participant_form:
+    participant_name_placeholder: Qual o seu nome?
+  poll_common_subscribe_form:
+    subscribe: Se inscrever
+    no_thanks: Não, obrigado
+  polls_page:
+    heading: Decisões
+    start_new_poll: Nova decisão
+    groups_placeholder: (Todos os grupos)
+  auth_form:
+    more_providers: Mais
+    hello: "Olá, {{name}}!"
+    create_account: Criar conta
+    check_your_email: Consulte o seu e-mail!
+    name: Nome
+    email: E-mail
+    password: Senha
+  install_slack:
+    modal_title: Instalar Slack
+    progress:
+      invite: Convidar
+    install:
+      group_name: Nome do grupo
+      install_slack: Instalar Slack agora
+      start_new_group: Criar um novo grupo
+  slack_added_modal:
+    title: Sucesso!

@@ -1,0 +1,9 @@
+fi:
+  email:
+    unsubscribe: 'Lopeta tilaus tai muuta sinun sähköpostiasetuksia:'
+  footer:
+    blog: Blogi
+    contact: Ota yhteyttä
+    privacy: Yksityisyys
+    public_groups: Julkiset ryhmät
+    terms: Termit

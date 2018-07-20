@@ -1,0 +1,40 @@
+hr:
+  common:
+    privacy:
+      public: 'Javno'
+    models:
+      proposal: 'Prijedlog'
+  error_page:
+    forbidden: 'Nepostojeća dozvola za izvršenje.'
+  inbox:
+    clear: 'Obriši'
+  comment_form:
+    edit_comment: 'Ažuriranje komentara'
+    delete_comment: 'Obriši komentar'
+    confirm_delete_message: 'Jeste li sigurni da želite obrisati komentar?'
+  membership_dropdown:
+    make_coordinator: 'Postavljanje koordinatora'
+  notifications:
+    header: "Notifikacije"
+  discussion_form:
+    privacy_label: 'Privatnost'
+  join_group_button:
+    join_group: 'Pridruži se grupi '
+  membership_request_form:
+    heading: Zahtjev za pridruženjem grupi
+  membership_requests_page:
+    ignore: Ignoriraj
+  memberships_page:
+    members: 'Članovi'
+  profile_page:
+    profile: 'Profil'
+  thread_group:
+    aria_label: 'Ime grupe'
+  delete_comment_dialog:
+    title: 'Obriši komentar'
+    question: 'Jeste li sigurni da želite obrisati komentar?'
+    confirm: 'Obriši komentar'
+  new_comment_item:
+    context_menu:
+      edit_comment: 'Ažuriranje komentara'
+      delete_comment: 'Obriši komentar'

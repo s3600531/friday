@@ -1,0 +1,97 @@
+he:
+  common:
+    time:
+      am: am
+      pm: pm
+    group: 'קבוצה'
+    groups: 'קבוצות'
+    privacy:
+      public: 'פתוח לציבור'
+      private: 'פרטי'
+    date_range:
+      today: 'היום'
+    models:
+      proposal: 'הצעה'
+    action:
+      save: 'שמירה'
+      edit: 'עריכה'
+      like: 'אהבתי'
+      unlike: 'ביטול לייק'
+      cancel: 'ביטול'
+  error_page:
+    forbidden: 'אין לך הרשאות לעשות זאת.'
+  inbox:
+    clear: 'נקה/י'
+    unread: 'לא-נקרא'
+  comment_form:
+    delete_comment: 'מחקו תגובה'
+    confirm_delete_message: 'למחוק את התגובה? בטוחים?'
+  navbar:
+    search:
+      placeholder: 'חיפוש'
+      discussions: 'דיונים'
+  membership_dropdown:
+    make_coordinator: 'הפיכה למתאם'
+  notifications:
+    header: "התרעות"
+  discussion_form:
+    group_label: 'קבוצה'
+    title_label: 'תואר'
+    context_label: 'הקשר'
+    privacy_label: 'פרטיות'
+  join_group_button:
+    join_group: הצטרפו לקבוצה
+  membership_request_form:
+    heading: בקשת הצטרפות לקבוצה
+    name_label: שם
+    email_label: דואל
+  group_page:
+    options_label: 'אפשרויות'
+    options:
+      label: 'אפשרויות'
+  document:
+    form:
+      title_label: שם
+  membership_requests_page:
+    approve: אישור
+    ignore: התעלמ/י
+  memberships_page:
+    members: 'חברים'
+    name_label: 'שם'
+    coordinator_label: 'מתאם'
+    remove_member_label: 'הסרה'
+  profile_page:
+    profile: 'פרופיל'
+    picture_label: 'תמונה'
+    name_label: 'שם'
+    email_label: 'דואל'
+    locale_label: 'שפה'
+  dashboard_page:
+    aria_label: 'לוח מכוונים'
+    mark_as_read: סמן כנקרא
+    threads_from:
+      today: 'היום'
+  activity_card:
+    unread: לא-נקרא
+  thread_group:
+    aria_label: 'שם הקבוצה'
+  thread_context:
+    close_thread: 'סגירה'
+  delete_comment_dialog:
+    title: 'מחקו תגובה'
+    question: 'למחוק את התגובה? בטוחים?'
+    confirm: 'מחקו תגובה'
+  new_comment_item:
+    context_menu:
+      delete_comment: 'מחקו תגובה'
+  contact_message_form:
+    name_label: 'שמך'
+    email_label: 'כתובת הדוא״ל שלך'
+    message_label: 'ההודעה שלך'
+  hint:
+    discussion: 'טיפים להתחלת דיון מרתק'
+  poll_common_form:
+    closed: סגור
+  poll_count_options:
+    'yes': 'כן'
+    'no': 'לא'

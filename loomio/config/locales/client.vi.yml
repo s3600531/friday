@@ -1,0 +1,75 @@
+vi:
+  common:
+    group: 'Nhóm'
+    groups: 'Các nhóm'
+    models:
+      proposal: 'Lời đề nghị'
+    action:
+      save: 'Lưu'
+      edit: 'Chỉnh sửa'
+      like: 'Thích'
+      unlike: 'Không thích'
+      cancel: 'Hủy bỏ'
+  error_page:
+    forbidden: 'Bạn không có quyền thực hiện thao tác này.'
+  comment_form:
+    delete_comment: 'Xóa bình luận'
+    confirm_delete_message: 'Bạn có chắc muốn xóa bình luận này?'
+  navbar:
+    search:
+      placeholder: 'Tìm kiếm'
+      discussions: 'Các phần thảo luận'
+  membership_dropdown:
+    make_coordinator: 'Tạo điều hành viên'
+  notifications:
+    header: "Thông báo"
+  position_buttons_panel:
+    heading: Phát biểu ý kiến của bạn
+  discussion_form:
+    group_label: 'Nhóm'
+    title_label: 'Tiêu đề'
+    context_label: 'Nội dung'
+    privacy_label: 'Quyền riêng tư'
+  membership_request_form:
+    name_label: Tên
+    email_label: Email
+  group_page:
+    options_label: 'Tùy chọn'
+    options:
+      label: 'Tùy chọn'
+  document:
+    form:
+      title_label: Tên
+  membership_requests_page:
+    approve: Chấp thuậ
+    ignore: Bỏ qua
+  memberships_page:
+    members: 'Thành viên'
+    name_label: 'Tên'
+    coordinator_label: 'Điều hành viên'
+    remove_member_label: 'Loại bỏ'
+  profile_page:
+    picture_label: 'Hình ảnh'
+    name_label: 'Tên'
+    email_label: 'Email'
+    locale_label: 'Ngôn ngữ'
+  thread_context:
+    close_thread: 'Đóng lại'
+  delete_comment_dialog:
+    title: 'Xóa bình luận'
+    question: 'Bạn có chắc muốn xóa bình luận này?'
+    confirm: 'Xóa bình luận'
+  new_comment_item:
+    context_menu:
+      delete_comment: 'Xóa bình luận'
+  hint:
+    context: 'Gợi ý về cách sử dụng khung điều khiển nội dung'
+    discussion: 'Gợi ý về cách bắt đầu tham gia thảo luận'
+    invitation: 'Gợi ý về cách viết các lời mời để kết nối thêm thành viên'
+    proposal: 'Gợi ý về việc viết lời đề nghị theo hướng rõ ràng nhất'
+    vote: 'Bạn có thể thay đổi kiến nghị của bạn vào bất kỳ thời điểm nào'
+  poll_common_form:
+    closed: Đã đóng lại
+  poll_count_options:
+    'yes': 'Đồng Ý'
+    'no': 'Không đồng ý'

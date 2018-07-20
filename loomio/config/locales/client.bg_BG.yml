@@ -1,0 +1,70 @@
+bg_BG:
+  common:
+    group: 'Група'
+    groups: 'Групи'
+    models:
+      proposal: 'Предложение'
+    action:
+      save: 'Запис'
+      edit: 'Редактиране'
+      like: 'Харесвам'
+      unlike: 'Не харесвам'
+      cancel: 'Отказ'
+  error_page:
+    forbidden: 'Нямате права да правите това.'
+  comment_form:
+    delete_comment: 'Изтрий коментар'
+    confirm_delete_message: 'Сигурни ли сте, че искате да изтриете този коментар?'
+  navbar:
+    search:
+      discussions: 'Дискусии'
+  membership_dropdown:
+    make_coordinator: 'Направи координатор'
+  notifications:
+    header: "Известия"
+  position_buttons_panel:
+    heading: Кажете си думата
+  discussion_form:
+    group_label: 'Група'
+    title_label: 'Заглавие'
+    context_label: 'Контекст'
+  membership_request_form:
+    name_label: Име
+    email_label: E-mail
+  group_page:
+    options_label: 'Опции'
+    options:
+      label: 'Опции'
+  document:
+    form:
+      title_label: Име
+  membership_requests_page:
+    approve: Одобряване
+    ignore: Игнориране
+  memberships_page:
+    members: 'Членове'
+    name_label: 'Име'
+    coordinator_label: 'Координатор'
+    remove_member_label: 'Отстраняване'
+  profile_page:
+    picture_label: 'Изображение'
+    name_label: 'Име'
+    email_label: 'E-mail'
+    locale_label: 'Език'
+  thread_context:
+    close_thread: 'Затваряне'
+  delete_comment_dialog:
+    title: 'Изтрий коментар'
+    question: 'Сигурни ли сте, че искате да изтриете този коментар?'
+    confirm: 'Изтрий коментар'
+  new_comment_item:
+    context_menu:
+      delete_comment: 'Изтрий коментар'
+  hint:
+    context: 'Насоки за използване на панела за контекста'
+    discussion: 'Насоки за започване на дискусия за приобщаване'
+    invitation: 'Насоки за писане на страхотни покани'
+    proposal: 'Насоки за писане на чисти предложения'
+    vote: 'Можете да промените позицията си по всяко време'
+  poll_common_form:
+    closed: Затворен

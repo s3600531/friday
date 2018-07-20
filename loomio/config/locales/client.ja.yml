@@ -1,0 +1,117 @@
+ja:
+  common:
+    confirm_discard_changes: 編集内容を破棄しますか？
+    time:
+      am: 午前
+      pm: 午後
+    group: 'グループ'
+    groups: 'グループ'
+    privacy:
+      privacy: 'プライバシー'
+      public: '公開'
+      open: '議論中'
+      closed: '議論終了'
+      private: '非公開'
+      secret: '秘密'
+    selected: '選択中'
+    date_range:
+      today: '本日'
+      yesterday: '昨日'
+      thisweek: '今週'
+      thismonth: '今月'
+    models:
+      proposal: '提案'
+    action:
+      save: '保存'
+      save_changes: '変更を保存'
+      update_settings: '設定更新'
+      reply: '返信'
+      edit: '編集'
+      like: 'いいね！'
+      unlike: 'いいね！を消す'
+      update: '更新'
+      cancel: 'キャンセル'
+  error_page:
+    forbidden: 'このアクションの許可がありません'
+  comment_form:
+    delete_comment: 'コメントを削除します'
+    confirm_delete_message: '本当にコメントを削除しますか？'
+  navbar:
+    search:
+      placeholder: '検索'
+      discussions: 'ディスカッション'
+  membership_dropdown:
+    make_coordinator: 'コーディネーターにする'
+  notifications:
+    header: "通知"
+  position_buttons_panel:
+    heading: 意見を言う
+  discussion_form:
+    group_label: 'グルブ'
+    title_label: 'タイトル'
+    privacy_label: '個人情報'
+  join_group_button:
+    join_group: グループに参加する
+  membership_request_form:
+    heading: グループへの参加依頼
+    name_label: 氏名
+    email_label: Eメール
+  group_page:
+    options_label: 'オプション'
+    options:
+      label: 'オプション'
+  group_form:
+    privacy: 'プライバシー'
+    submit_update: '設定更新'
+  document:
+    form:
+      title_label: 氏名
+  membership_requests_page:
+    approve: 承認
+    ignore: 拒否
+  memberships_page:
+    members: 'メンバー'
+    name_label: '氏名'
+    coordinator_label: 'コーディネーター'
+    remove_member_label: '削除'
+  profile_page:
+    profile: 'プロフィール'
+    picture_label: '画像'
+    name_label: '氏名'
+    email_label: 'Eメール'
+    locale_label: '言語'
+  dashboard_page:
+    no_groups:
+      or: または
+    threads_from:
+      today: '本日'
+      yesterday: '昨日'
+  inbox_page:
+    no_groups:
+      or: または
+  thread_group:
+    aria_label: 'グループ名'
+  thread_context:
+    close_thread: '締め切り'
+  delete_comment_dialog:
+    title: 'コメントを削除します'
+    question: '本当にコメントを削除しますか？'
+    confirm: 'コメントを削除します'
+  new_comment_item:
+    context_menu:
+      delete_comment: 'コメントを削除します'
+  contact_message_form:
+    name_label: 'あなたの名前'
+    email_label: 'あなたのメールアドレス'
+    message_label: 'あなたのメッセージ'
+  hint:
+    context: 'ディスカッション情報を使うアドバイス'
+    discussion: 'ディスカッションを開始する際のアドバイス'
+    invitation: '素晴らしい招待を書くアドバイス'
+    proposal: 'はっきりした提案を書くアドバイス'
+    vote: 'いつでも意見を変更することができます'
+  poll_common_form:
+    closed: 議論終了
+  poll_count_options:
+    'yes': 'はい'
+    'no': 'いいえ'

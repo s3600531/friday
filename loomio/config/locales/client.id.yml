@@ -1,0 +1,81 @@
+id:
+  common:
+    group: 'Kelompok'
+    groups: 'Kelompok'
+    privacy:
+      public: 'Terbuka'
+      private: 'Tertutup'
+    models:
+      proposal: 'Usulan'
+    action:
+      save: 'Simpan'
+      edit: 'Ubah'
+      like: 'Suka'
+      unlike: 'Tidak sukai'
+      cancel: 'Batal'
+  error_page:
+    forbidden: 'Anda tidak dapat melakukan hal ini.'
+  comment_form:
+    delete_comment: 'Hapus komentar'
+    confirm_delete_message: 'Apakah Anda ingin menghapus komentar ini?'
+  navbar:
+    search:
+      placeholder: 'Cari'
+      discussions: 'Diskusi'
+  membership_dropdown:
+    make_coordinator: 'Buat jadi koordinator'
+  notifications:
+    header: "Notifikasi"
+  position_buttons_panel:
+    heading: Berikan pendapat Anda
+  discussion_form:
+    group_label: 'Kelompok'
+    title_label: 'Judul'
+    context_label: 'Konteks'
+    privacy_label: 'Kebijakan Privasi'
+  membership_request_form:
+    heading: Minta untuk bergabung dalam kelompok
+    name_label: Nama
+    email_label: Surel
+  group_page:
+    options_label: 'Pilihan'
+    options:
+      label: 'Pilihan'
+  document:
+    form:
+      title_label: Nama
+  membership_requests_page:
+    approve: Setuju
+    ignore: Abaikan
+  memberships_page:
+    members: 'Anggota'
+    name_label: 'Nama'
+    coordinator_label: 'Koordinator'
+    remove_member_label: 'Hapus'
+  profile_page:
+    picture_label: 'Gambar'
+    name_label: 'Nama'
+    email_label: 'Surel'
+    locale_label: 'Bahasa'
+  thread_group:
+    aria_label: 'Nama kelompok'
+  thread_context:
+    close_thread: 'Tutup'
+  delete_comment_dialog:
+    title: 'Hapus komentar'
+    question: 'Apakah Anda ingin menghapus komentar ini?'
+    confirm: 'Hapus komentar'
+  new_comment_item:
+    context_menu:
+      delete_comment: 'Hapus komentar'
+  hint:
+    context: 'Tips menggunakan panel konteks'
+    discussion: 'Tips memulai diskusi yang menarik'
+    invitation: 'Tips menulis undangan yang baik'
+    proposal: 'Tips untuk menulis usulan yang baik'
+    vote: 'Anda dapat mengubah pendapat Anda kapanpun'
+  poll_common_form:
+    closed: Ditutup
+  poll_count_options:
+    'yes': 'Ya'
+    'no': 'Tidak'

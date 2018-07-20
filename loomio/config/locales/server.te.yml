@@ -1,0 +1,20 @@
+te:
+  poll:
+    export:
+      title: శీర్షిక
+      author: రచయిత
+      details: వివరాలు
+      total: మొత్తం
+  email:
+    unsubscribe: 'మీ ఈమెయిలు అభిరుచులను మార్చండి లేదా చందావిరమించుకోండి:'
+    catch_up:
+      click_here: ఇక్కడ నొక్కండి
+  footer:
+    about: గురించి
+    blog: బ్లాగు
+    contact: సంప్రదించండి
+    help: సహాయం
+    privacy: గోప్యత
+    pricing: ధర
+    public_groups: బహిరంగ సమూహాలు
+    terms: షరతులు

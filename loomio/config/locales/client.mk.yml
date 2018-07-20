@@ -1,0 +1,94 @@
+mk:
+  common:
+    group: 'Група'
+    groups: 'Групи'
+    privacy:
+      public: 'Јавно'
+    date_range:
+      today: 'Денес'
+    models:
+      proposal: 'Предлог'
+    action:
+      save: 'Зачувај'
+      edit: 'Измени'
+      like: 'Ми се допаѓа'
+      unlike: 'Не ми се допаѓа'
+      cancel: 'Откажи'
+  error_page:
+    forbidden: 'Немате дозвола за да го направите ова.'
+  comment_form:
+    edit_comment: 'Измени го коментарот'
+    delete_comment: 'Избриши го коментарот'
+    confirm_delete_message: 'Дали си сигурен/а дека сакаш да го избришиш коментарот?'
+  navbar:
+    search:
+      placeholder: 'Пребарувај'
+      discussions: 'Дискусии'
+  membership_dropdown:
+    make_coordinator: 'Направи координатор'
+  notifications:
+    header: "Известувања"
+  position_buttons_panel:
+    heading: Кажете што имате
+  discussion_form:
+    group_label: 'Група'
+    title_label: 'Наслов'
+    context_label: 'Контекст'
+    privacy_label: 'Приватност'
+  join_group_button:
+    join_group: Приклучи се во групата
+  membership_request_form:
+    heading: Побарај да се придружиш на групата
+    name_label: Име
+    email_label: Email
+  group_page:
+    options_label: 'Опции'
+    options:
+      label: 'Опции'
+  document:
+    form:
+      title_label: Име
+  membership_requests_page:
+    approve: Одобри
+    ignore: Игнорирај
+  memberships_page:
+    members: 'Членови'
+    name_label: 'Име'
+    coordinator_label: 'Координатор'
+    remove_member_label: 'Избриши'
+  profile_page:
+    profile: 'Профил'
+    picture_label: 'Фотографија'
+    name_label: 'Име'
+    email_label: 'Email'
+    locale_label: 'Јазик'
+  dashboard_page:
+    no_groups:
+      or: или
+    mark_as_read: Означи го како прочитано
+    threads_from:
+      today: 'Денес'
+  inbox_page:
+    no_groups:
+      or: или
+  thread_group:
+    aria_label: 'Име на групата'
+  thread_context:
+    close_thread: 'Затвори'
+  delete_comment_dialog:
+    title: 'Избриши го коментарот'
+    question: 'Дали си сигурен/а дека сакаш да го избришиш коментарот?'
+    confirm: 'Избриши го коментарот'
+  new_comment_item:
+    context_menu:
+      edit_comment: 'Измени го коментарот'
+      delete_comment: 'Избриши го коментарот'
+  contact_message_form:
+    name_label: 'Твоето име'
+    email_label: 'Твојата електронска пошта'
+    message_label: 'Твојата порака'
+  poll_common_form:
+    closed: Затворено
+  poll_count_options:
+    'yes': 'Да'
+    'no': 'Не'

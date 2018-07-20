@@ -1,0 +1,442 @@
+pl:
+  reactions:
+    slight_smile: Lubię
+    heart: Kocham
+    laughing: Haha
+    clap: Brawo!
+    hugging: Przytulam
+    sunglasses: Fajne
+    wink: Mrugnięcie okiem
+    nerd: Sprytne
+    relieved: Co za ulga
+    worried: Martwię się
+    confused: Miesane uczucie
+    confounded: Zakłopotanie
+    neutral_face: Obojętnie
+    slight_frown: Skrzywienie
+    disappointed: Rozczarowujące
+    angry: Złość
+    weary: Zmęczenie
+    astonished: Zdziwienie
+    rolling_eyes: Przewracam oczami
+    cry: Płaczę
+    scream: Krzyczę
+    sleeping: Nuda
+    thinking: Myślę
+    raised_hands: Ręce do góry
+    pray: Modlę się
+    fingers_crossed: Trzymam kciuki!
+    v: Pokój
+    metal: Usztywnienie
+    ok_hand: Ok
+    wave: Machanie
+    thumbsup: Poparcie
+    thumbsdown: Dezaprobata
+  poll_types:
+    proposal: Propozycja
+    count: Zaznaczenie
+    poll: Ankieta
+    dot_vote: Głosowanie kropkowe
+    meeting: Ankieta datowa
+  timezones:
+    local: Czas lokalny ({{value}})
+  common:
+    you: Ty
+    expand: Rozwiń
+    all_day: Cały dzień
+    ok_got_it: Rozwiń
+    learn_more: Dowiedz się więcej
+    not_found: Nie znaleziono
+    time_zone: Strefa czasowa
+    local_time: Czas lokalny
+    confirm_discard_changes: Odrzucić zmiany?
+    time:
+      am: am
+      pm: pm
+    closing_in: 'Zamknięcie {{time}}'
+    closed_ago: 'Zamknięto {{time}}'
+    volume: 'Poziom'
+    notification_volume: 'Poziom powiadamiania'
+    group: 'Grupa'
+    groups: 'Grupy'
+    threads: 'Wątki'
+    decisions: 'Decyzje'
+    settings: 'Ustawienia'
+    help: 'Pomoc'
+    anonymous: Anonimowo
+    privacy:
+      privacy: 'Prywatność'
+      public: 'Publiczna'
+      open: 'Otwarta'
+      closed: 'Zamknięta'
+      private: 'Prywatna'
+      secret: 'Tajna'
+    selected: 'Wybrane'
+    date_range:
+      today: 'Dzisiaj'
+      yesterday: 'Wczoraj'
+      thisweek: 'Ten tydzień'
+      thismonth: 'Ten miesiąc'
+      older: 'Starsze'
+    more_help: 'Więcej pomocy'
+    models:
+      proposal: 'Rekomendacja'
+    copy: 'Kopiuj'
+    copy_text: 'Kopiuj tekst'
+    copied: 'Skopiowano do schowka'
+    points_abbrev: Każdy głos warty jest {{score}} punktów
+    total: W sumie
+    action:
+      next: 'Dalej'
+      close: 'Zamknij'
+      reopen: 'Otworzyć ponownie'
+      save: 'Zapis'
+      save_changes: 'Zapisanie zmian'
+      update_settings: 'Zaktualizuj ustawienia'
+      reply: 'Odpowiedź'
+      edit: 'Edycja'
+      remove: 'Usuń'
+      like: 'Lubię'
+      back: 'Wstecz'
+      unlike: 'Nie lubię'
+      update: 'Zaktualizuj'
+      cancel: 'Anuluj'
+      show_more: "Pokaż więcej"
+      view_all: "Pokaż wszystko"
+      new_thread: "Nowy wątek"
+      add_subgroup: 'Dodanie podgrupy'
+      loading: 'Ładowanie'
+      translate: 'Tłumacz'
+      translated: 'Przetłumaczono przez Translator Bing'
+      upload: 'Załaduj'
+      uploading: 'Ładowanie'
+      load_more: 'Załaduj więcej'
+      share: Udostępnij
+      ok: Ok!
+      retry: Spróbuj ponownie
+      done: Zrobione
+      start: Rozpocznij
+      delete: Usuń
+      unsubscribe: Zrezygnuj z subskrypcji
+      subscribe: Subskrybuj
+      remind: Przypomnij
+      resend: Wyślij ponownie
+      send: Wyślij
+      resent: Zaproszenie wysłane ponownie
+      export: Eksport
+    formatting_help:
+      label: 'Formatowanie'
+  ordinal:
+    _1: '1.'
+    _2: '2.'
+    _3: '3.'
+    _4: '4.'
+    _5: '5.'
+    _6: '6.'
+    _7: '7.'
+    _8: '8.'
+    _9: '9.'
+    _10: '10.'
+  devise:
+    failure:
+      inactive: 'Z tym adresem e-mail związane jest dezaktywowane konto. Jeśli chcesz aktywować swoje konto, skontaktuj się z nami.'
+  error_page:
+    forbidden: 'Nie masz uprawnień aby to wykonać.'
+    page_not_found: 'Nie udało się znaleźć. Możliwe, że zostało usunięte lub przeniesione.'
+    internal_server_error: 'Przykro nam, ale coś poszło źle. Spróbuj jeszcze raz.'
+  verify_email_notice:
+    please_verify: Dziękujemy za udział! Sprawdź swoją skrzynkę e-mail w poszukiwaniu linku do weryfikacji Twojego głosowania.
+  verify_stances:
+    title: Weryfikuj głosy
+    description: Sprawdź proszę poniższe głosy i sprawdź czy należą do ciebie.
+    verify: Weryfikuj
+    remove: Usuń
+    verify_success: Głos zweryfikowany
+    remove_success: Głos usunięty
+    all_done: Dobra robota, wszystkie głosy zweryfikowane.
+  previous_polls_page:
+    heading: Aktywność w {{name}}
+    polls_count: Pokazuje {{loaded}} z {{total}} decyzji
+    search_activities: Szukaj decyzji
+  volume_levels:
+    loud: 'Głośno'
+    normal: 'Normalnie'
+    quiet: 'Cicho'
+    mute: 'Wyciszono'
+    unmute: 'Wyłącz wyciszenie'
+  change_volume_form:
+    aria_label: "Formularz zmiany stawień poczty"
+    loud_label: "Wszystkie aktywności"
+    normal_label: "Ogłoszenia"
+    quiet_label: "Brak wiadomości"
+    mute_label: "Wycisz"
+    discussion:
+      loud_description: "Wyślemy do Ciebie e-mail przy każdej aktywności w tym wątku."
+      normal_description: "Wyślemy do Ciebie e-mail za każdym razem, gdy wysuwana jest jakaś propozycja, gdy niedługo się kończy lub gdy prezentowany jest jej rezultat."
+      quiet_description: "Nie będziemy wysyłać do Ciebie e-maili na temat tego wątku."
+      apply_to_all: "Zapisz te ustawienia do wszystkich wątków w tej grupie"
+      messages:
+        loud: "Pocztą otrzymasz powiadomienie o aktywności w tym wątku."
+        quiet: "Nie będziemy wysyłać do Ciebie e-maili na temat tego wątku."
+    membership:
+      title: "Ustawienia poczty dla {{title}}"
+  inbox:
+    clear: 'Wyczyść'
+    latest: 'Ostatnie'
+    unread: 'Nieprzeczytane'
+    closing_in: 'Zamykane'
+  signed_out_modal:
+    ok: "Ok"
+  comment_form:
+    aria_label: 'Dodanie komentarza'
+    attachments:
+      remove_attachment: 'Usunięcie załącznika'
+    messages:
+      created: 'Komentarz dodany'
+      updated: 'Komentarz zmieniony'
+      destroyed: 'Komentarz usunięty'
+    edit_comment: 'Edycja komentarza'
+    delete_comment: 'Usunięcie komentarza'
+    cancel_reply: 'Anulowanie Odpowiedzi'
+    confirm_delete_message: 'Czy na pewno chcesz usunąć ten komentarz?'
+    submit_button:
+      label: 'Wysłanie'
+  navbar:
+    recent_title: 'Idź do pulpitu'
+    unread_title: 'Zobacz nieprzeczytaną aktywność'
+    notifications: 'Panel powiadomień'
+    search:
+      close: 'Zamknij panel wyszukiwania'
+      placeholder: 'Szukaj'
+      loading: 'Ładowanie wyników...'
+      discussions: 'Wątki'
+      proposals: 'Rekomendacje'
+      comments: 'Komentarze'
+  membership_dropdown:
+    invitation_resent: "Zaproszenie wysłane ponownie"
+    make_coordinator: 'Definicja koordynatora'
+  start_menu:
+    start_group: 'Uruchomienie Grupy'
+    start_subgroup: 'Uruchomienie Podgrupy'
+    start_thread: 'Uruchomienie Wątku'
+    invite_people: 'Zaproszenie Osób'
+  notifications:
+    header: "Powiadomienia"
+  position_buttons_panel:
+    heading: Wypowiedz się
+  extend_proposal_form:
+    title: 'Zmiana terminu zamknięcia'
+    success: 'Zmieniono czas zamknięcia rekomendacji'
+    submit: 'Zmiana terminu zamknięcia'
+  discussion_record:
+    created: 'Wątek {{title}} został pomyślnie utworzony w  {{groupName}}'
+    updated: 'Zapisano zmiany w {{title}}'
+  discussion_form:
+    messages:
+      created: 'Wątek rozpoczęty'
+      updated: 'Wątek zmieniony'
+    new_discussion_title: 'Rozpoczęcie nowego wątku'
+    edit_discussion_title: 'Edycja wątku'
+    group_label: 'Grupa'
+    group_placeholder: 'Wybór grupy'
+    title_label: 'Tytuł'
+    title_placeholder: 'Jaki temat chcesz dyskutować?'
+    context_label: 'Kontekst'
+    context_placeholder: 'Aby uzyskać efektywną dyskusję podaj dostateczną ilość informacji. Można aktualizować w trakcie dyskusji'
+    privacy_label: 'Zasady prywatności'
+  join_group_button:
+    join_group: Dołączenie do grupy
+    messages:
+      joined_group: 'Jesteś teraz członkiem grupy {{group}}'
+  membership_request_form:
+    heading: Prośba o dołączenie do grupy
+    name_label: Nazwa
+    email_label: E-mail
+    messages:
+      membership_requested: 'Wysłałeś/aś prośbę o dołączenie do grupy  {{group}}'
+  revision_history_modal:
+    current_revision: Ostatnie
+  reactions_display:
+    you: "Ty"
+  group_page:
+    messages:
+      privacy:
+        members: 'Ta grupa jest teraz widoczna tylko dla członków'
+        parent_members: 'Ta grupa jest teraz widoczna tylko dla członków Twojej organizacji'
+        public: 'Ta grupa jest teraz publiczna'
+      leave_group_success: 'Opuściłeś/aś tę grupę'
+    group_logo: 'Logo grupy'
+    discussions_placeholder: 'Wątek jest miejscem gdzie wszyscy mogą dyskutować temat i podejmować wspólne decyzje.'
+    members_placeholder: 'Jesteś jedynym członkiem: zaproś inne osoby!'
+    member_options: Opcje członka
+    subgroups: 'Podgrupy'
+    visibility_label: 'Widoczność'
+    options_label: 'Opcje'
+    options:
+      label: 'Opcje'
+    volume:
+      loud: Wyślij wiadomość jeśli pojawi się aktywność.
+      loud_aria_description: Poziom powiadamiania dla tej grupy jest ustawiony na Głośno. Będziesz otrzymywać wiadomości w przypadku każdej aktywności.
+      normal: 'Wysyłaj pocztą ważne wydarzenia: nowe wątki i rekomendację, wyniki etc.'
+      normal_aria_description: Poziom powiadamiania dla tej grupy jest ustawiony na Normaly. Otrzymasz wiadomości na temat ważnych akcji, takich jak kiedy ktoś uruchomi nowy wątek, zgłosi rekomendację lub ustawi jej wynik.
+      quiet: Nie przysyłam maili z tej grupy. Aktywności będą wyświetlane na pulpicie.
+      quiet_aria_description: Poziom powiadamianie dla tej grupy jest ustawiony na Cicho. Nie będziesz otrzymywać maili o aktywnościach z tej grupy. Jej aktywność będzie wyświetlana na Pulpicie.
+      mute: Ukryj tę grupę na pulpicie i nie przesyłaj powiadomień z wyjątkiem @wzmianek
+      mute_aria_description: Poziom powiadamiania dla tej grupy jest ustawiony na Wyciszony. Nie otrzymasz wiadomości dopóki ktoś nie wspomni o Tobie w komentarzu, a aktywność grupy nie będzie wyświetlana na Pulpicie.
+  group_form:
+    privacy: 'Prywatność'
+    submit_update: 'Zaktualizuj ustawienia'
+  documents_page:
+    confirm_remove_title: Usunięcie załącznika
+  document:
+    form:
+      title_label: Nazwa
+  membership_requests_page:
+    heading: Zgłoszenia Członkostwa
+    approve: Akceptacja
+    ignore: Ignoruj
+    previous_requests: Poprzednie zgłoszenia
+    previous_request_response: '{{response}} od {{responder}} '
+    messages:
+      request_approved_success: Zgłoszenie członkostwa zaakceptowane
+      request_ignored_success: Zgłoszenie członkostwa zignorowane
+  invitation_form:
+    copy_link: 'Kopiuj'
+    send: 'Wyślij'
+    done: 'Zrobione'
+  memberships_page:
+    members: 'Członkowie'
+    name_label: 'Nazwa'
+    coordinator_label: 'Koordynator'
+    remove_member_label: 'Usunięcie'
+    fragment_placeholder: 'Filtrowanie użytkowników przez nazwę lub login'
+    messages:
+      remove_member_success: 'Usunięto {{name}}'
+      make_admin_success: '{{name}} został/a koordynatorem'
+      remove_admin_success: '{{name}} przestał/a być koordynatorem'
+  membership_remove_modal:
+    membership:
+      title: Usunięcie członka
+      submit: Usunięcie członka
+  profile_page:
+    messages:
+      updated: 'Profil zmieniony'
+      picture_changed: 'Zdjęcie profilowe zmienione'
+      password_changed: 'Hasło zmienione'
+      deactivated: 'Konto wyłączone'
+    change_picture_link: 'Zmiana zdjęcia'
+    deactivate_user_link: 'Wyłączenie hasła...'
+    profile: 'Profil'
+    edit_profile: 'Edycja Profilu'
+    picture_label: 'Zdjęcie'
+    name_label: 'Nazwa'
+    username_label: 'Nazwa użytkownika'
+    email_label: 'E-mail'
+    locale_label: 'Język'
+    update_profile: 'Zmiana profilu'
+  email_settings_page:
+    header: Ustawienia poczty
+    daily_summary_label: Dzienna wiadomość z podsumowaniem
+    announcement_label: Ogłoszenia
+    messages:
+      updated: Ustawienia poczty zmienione
+  dashboard_page:
+    aria_label: 'Pulpit'
+    no_groups:
+      start: Rozpocznij
+    no_threads:
+      show_all: Nie masz żadnych ostatnich wątków.
+      show_proposals: Brak aktywnych rekomendacji
+      show_muted: Nie masz wyciszonych wątków.
+    view_recent: Przejrzeć wszystkie ostatnie wątki?
+    load_more: Załadowanie następnych wątków
+    mark_as_read: Oznaczenie jako przeczytane
+    filtering:
+      filter_threads: Filtry Wątków
+      dropdown_heading: Filtrowanie Pulpitu
+      all: Ostatnie Wątki
+      all_aria_label: Pokazywane są ostatnie wątki
+      all_description: Przegląd ostatnich wątków
+      proposals: Rekomendacje
+      proposals_aria_label: Pokazywane są wątki z aktywnymi rekomendacjami
+      proposals_description: Zobacz tylko wątki  aktywnymi rekomendacjami
+      muted_aria_label: Pokazywane są wyciszone wątki
+      muted_description: Przegląd tylko wątków wyciszonych
+    aria_thread:
+      unread: '{{count}} nieprzeczytanych pozycji.'
+      current_proposal: 'Aktualna rekomendacja: {{name}}.'
+      you_voted: 'Głosowałeś/aś: {{position}}.'
+    threads_from:
+      group: 'Wątki od'
+      today: 'Dzisiaj'
+      yesterday: 'Wczoraj'
+      thisweek: 'Ten tydzień'
+      thismonth: 'Ten miesiąc'
+      older: 'Starsze niż miesiąc'
+  inbox_page:
+    no_threads: Przeczytałeś/aś wszystkie wątki z Twojej skrzynki.
+    unread_threads: Nieprzeczytane Wątki
+    view_more: Pokaż Więcej
+    no_groups:
+      start: Rozpocznij
+  discussion:
+    activity: 'Aktywność'
+    load_previous: 'Załaduj wcześniejsze aktywności'
+    started_by: 'Rozpoczęte przez <strong>{{name}}</strong>'
+  activity_card:
+    unread: Nieprzeczytane
+    latest: Ostatnie
+    attachment_display:
+      aria_label: 'Dołączony plik:'
+      image_alt: 'Dołączone zdjęcie'
+  thread_group:
+    aria_label: 'Nazwa grupy'
+  thread_context:
+    aria_label: 'Kontekst wątku.'
+    thread_options: 'Opcje wątku'
+    close_thread: 'Zamknij'
+    reopen_thread: 'Otworzyć ponownie'
+    mute_thread: 'Wycisz'
+    delete_thread: 'Usuń'
+  delete_comment_dialog:
+    title: 'Usuń komentarz'
+    question: 'Czy na pewno chcesz usunąć ten komentarz?'
+    confirm: 'Usuń komentarz'
+  new_comment_item:
+    context_menu:
+      aria_label: 'Opcje komentarzy'
+      edit_comment: 'Edycja komentarza'
+      delete_comment: 'Usuń komentarz'
+  contact_message_form:
+    contact_us: 'Kontakt'
+    name_label: 'Twoja nazwa'
+    name_placeholder: 'Podaj swoje imię i nazwisko...'
+    email_label: 'Twój adres email'
+    email_placeholder: 'Podaj Twój adres email...'
+    message_label: 'Twoja wiadomość'
+    message_placeholder: 'Twoja wiadomość...'
+    send_message: 'Wysłanie Wiadomości'
+  hint:
+    context: 'Wskazówki użycia panelu kontekstu'
+    discussion: 'Wskazówki uruchamiania zaangażowanych dyskusji'
+    invitation: 'Wskazówki pisania dobrych zaproszeń'
+    proposal: 'Wskazówki do pisania czytelnych rekomendacji'
+    vote: 'W każdej chwili możesz zmienić swoje stanowisko'
+  decision_tools_card:
+    proposal_title: Propozycja
+    count_title: Zaznaczenie
+    poll_title: Ankieta
+    meeting_title: Ankieta datowa
+  poll_common_form:
+    closed: Zamknięta
+    start: Rozpocznij
+    update: Zaktualizuj
+  poll_count_options:
+    'yes': 'Tak'
+    'no': 'Nie'
+  poll_meeting_chart_panel:
+    total: W sumie
+  poll_common_subscribe_form:
+    subscribe: Subskrybuj
+  polls_page:
+    heading: Decyzje

@@ -1,0 +1,291 @@
+lt:
+  reactions:
+    heart: Meilė
+    laughing: Juokas
+    clap: Ploti
+    hugging: Apkabinimas
+    sunglasses: Šaunus
+    wink: Mirktelėti
+    nerd: Protingas
+    worried: Neramus
+    confused: Sumišęs
+    confounded: Suglumintas
+    neutral_face: Neutralus
+    slight_frown: Susiraukti
+    disappointed: Nusivylęs
+    angry: Piktas
+    weary: pavargęs
+    astonished: Apstulbintas
+    cry: Verkti
+    scream: Šaukti
+    sleeping: Nuobodžiaujantis
+    thinking: Galvojau
+    raised_hands: Pakeltos rankos
+    pray: Melstis
+    fingers_crossed: Sukryžiuoti pirštai
+    v: Taika
+    metal: Metalas
+    ok_hand: Gerai
+    wave: Banga
+  poll_types:
+    proposal: Pasiūlymas
+    count: Patikrinti
+    poll: Apklausa
+    meeting: Laiko apklausa
+  common:
+    you: Tu
+    expand: Išplėsti
+    all_day: Visą dieną
+    ok_got_it: Gerai, supratau
+    learn_more: Sužinoti daugiau
+    not_found: Nerastas
+    time_zone: Laiko zona
+    confirm_discard_changes: Atmesti jūsų pakeitimus?
+    time:
+      am: am
+      pm: pm
+    volume: 'Garsumas'
+    notification_volume: 'Pranešimų garsumas'
+    group: 'Grupė'
+    groups: 'Grupės'
+    threads: 'Temos'
+    decisions: 'Sprendimai'
+    settings: 'Nustatymai'
+    help: 'Pagalba'
+    anonymous: Anoniminis
+    privacy:
+      privacy: 'Privatumas'
+      public: 'Vieša'
+      open: 'Atidaryti'
+      closed: 'Uždarytas'
+      private: 'Privati'
+      secret: 'Paslaptis'
+    selected: 'Pasirinktas'
+    date_range:
+      today: 'Šiandien'
+      yesterday: 'Vakar'
+      thisweek: 'Šią savaitę'
+      thismonth: 'Šį mėnesį'
+      older: 'Vyresnis'
+    more_help: 'Daugiau pagalbos'
+    models:
+      proposal: 'Pasiūlymas'
+    copy: 'Kopijuoti'
+    copy_text: 'Kopijuoti tekstą'
+    copied: 'Nukopijuota į iškarpinę'
+    total: Iš viso
+    action:
+      next: 'Kitas'
+      close: 'Užverti'
+      save: 'Įrašyti'
+      save_changes: 'Įrašyti pakeitimus'
+      update_settings: 'Atnaujinti nustatymus'
+      reply: 'Atsakyti'
+      edit: 'Redaguoti'
+      remove: 'Šalinti'
+      like: 'Patinka'
+      back: 'Atgal'
+      unlike: 'Nebepatinka'
+      update: 'Atnaujinti'
+      cancel: 'Atsisakyti'
+      show_more: "Rodyti daugiau"
+      new_thread: "Nauja gija"
+      add_subgroup: 'Pridėti pogrupį'
+      loading: 'Įkeliama'
+  error_page:
+    forbidden: 'Jūs neturite leidimo tai padaryti.'
+    internal_server_error: 'Atleiskite, bet įvyko kažkokia klaida. Prašome bandyti dar kartą.'
+  volume_levels:
+    loud: 'Garsus'
+    normal: 'Normalus'
+    quiet: 'Tylus'
+    mute: 'Nutildyti'
+  sign_up_form:
+    password_label: 'Slaptažodis:'
+  signed_out_modal:
+    ok: "Gerai"
+  comment_form:
+    aria_label: 'Pridėk komentarą'
+    attachments:
+      remove_attachment: 'Šalinti priedą'
+    messages:
+      created: 'Komentaras pridėtas'
+      updated: 'Komentaras atnaujintas'
+      destroyed: 'Komentaras ištrintas'
+    edit_comment: 'Redaguoti komentarą'
+    delete_comment: 'Ištrinti komentarą'
+    cancel_reply: 'Atsisakyti atsakymo'
+    confirm_delete_message: 'Ar jūs tikrai norite ištrinti šį komentarą?'
+    submit_button:
+      label: 'Išsiųsti'
+    private_privacy_notice: 'Jūsų komentaras bus matomas tik {{groupName}} grupės nariams.'
+  navbar:
+    recent_title: 'Pereiti į skydelį'
+    unread_title: 'Žiūrėti neskaitytas veiklas'
+    notifications: 'Pranešimų skydelis'
+    search:
+      no_results: 'Gijų nerasta'
+      loading: 'Įkeliami rezultatai...'
+      discussions: 'Gijos'
+      proposals: 'Pasiūlymai'
+  membership_dropdown:
+    cancel_invitation: Atsisakyti pakvietimo
+  start_menu:
+    start_thread: 'Kurti giją'
+    invite_people: 'Pakviesti žmones'
+  notifications:
+    header: "Pranešimai"
+  position_buttons_panel:
+    heading: Tarkite savo žodį
+  discussion_form:
+    new_discussion_title: 'Kurti naują giją'
+    edit_discussion_title: 'Redaguoti giją'
+    group_label: 'Grupė'
+    title_label: 'Antraštė'
+    title_placeholder: 'Kokia tema diskutuosite?'
+    context_label: 'Kontekstas'
+    privacy_label: 'Privatumas'
+  join_group_button:
+    messages:
+      joined_group: 'Dabar jūs esate {{group}} grupės narys'
+  membership_request_form:
+    email_label: El. paštas
+  reactions_display:
+    you: "Tu"
+  group_page:
+    messages:
+      privacy:
+        members: 'Dabar ši grupė yra matoma tik nariams'
+        parent_members: 'Dabar ši grupė yra matoma tik jūsų organizacijos nariams'
+        public: 'Dabar ši grupė yra matoma viešai'
+    group_logo: 'Grupės logotipas'
+    discussions_placeholder: 'Gija - tai vieta, kurioje visi gali diskutuoti tam tikra tema ir kartu priiminėti sprendimus.'
+    members_placeholder: 'Čia esate tik jūs: pakvieskite žmones prisjungti prie jūsų!'
+    subgroups: 'Pogrupiai'
+    visibility_label: 'Matomumas'
+    options_label: 'Parinktys'
+    options:
+      label: 'Parinktys'
+    volume:
+      loud: Siųsti el. laišką kai tik atsiranda kokia nors veikla.
+      loud_aria_description: Jūsų pranešimų garsumas šiai grupei yra nustatytas į Garsus. Jums bus siunčiami el. laiškai, kai tik atsiras kokia nors veikla.
+      quiet: Nesiųsti el. laiškų apie šią grupę. Veikla bus rodoma skydelyje.
+      quiet_aria_description: Jūsų pranešimų garsumas šiai grupei yra nustatytas į Tylus. Jums nebus siunčiami el. laiškai apie šioje grupėje vykstančią veiklą. Grupės veikla bus rodoma jūsų Skydelyje.
+    privacy:
+      public: 'Privatumas: Ši grupė yra matoma saityne'
+  group_form:
+    description: 'Aprašas'
+    privacy: 'Privatumas'
+    members_can_create_subgroups: 'Nariai gali kurti pogrupius.'
+    members_can_edit_comments: 'Nariai gali bet kuriuo metu redaguoti savo komentarus.'
+    submit_update: 'Atnaujinti nustatymus'
+  documents_page:
+    confirm_remove_title: Šalinti priedą
+  group_previous_proposals_card:
+    heading: Ankstesni pasiūlymai
+  invitation_form:
+    invite_people: 'Pakviesti žmones'
+    group: 'Grupė'
+    copy_link: 'Kopijuoti'
+  memberships_page:
+    coordinator_label: 'Koordinatorius'
+    remove_member_label: 'Šalinti'
+    fragment_placeholder: 'Filtruokite naudotojus pagal vardą ar naudotojo vardą...'
+    messages:
+      make_admin_success: '{{name}} dabar yra koordinatorius'
+      remove_admin_success: '{{name}} daugiau nebėra koordinatorius'
+    remove_admin_from_self:
+      question: 'Ar tikrai daugiau nebenorite būti koordinatoriumi?'
+  membership_remove_modal:
+    invitation:
+      title: Atsisakyti pakvietimo
+      flash: Pakvietimo atsisakyta
+      submit: Atsisakyti pakvietimo
+    membership:
+      title: Šalinti narį
+      submit: Šalinti narį
+  pending_invitations_card:
+    email: El. paštas
+  cancel_invitation_form:
+    heading: Atsisakyti pakvietimo
+    question: Ar tikrai norite atsisakyti šio pakvietimo?
+    submit: "Taip, atsisakyti pakvietimo"
+    cancel: 'Ne'
+    messages:
+      success: Pakvietimo atsisakyta
+  profile_page:
+    messages:
+      updated: 'Profilis atnaujintas'
+      picture_changed: 'Profilio paveikslas atnaujintas'
+      password_changed: 'Slaptažodis atnaujintas'
+    change_picture_link: 'Keisti paveikslą'
+    deactivate_user_link: 'Pasyvinti paskyrą...'
+    profile: 'Profilis'
+    edit_profile: 'Redaguoti profilį'
+    picture_label: 'Paveikslas'
+    username_label: 'Naudotojo vardas'
+    email_label: 'El. paštas'
+    locale_label: 'Kalba'
+    update_profile: 'Atnaujinti profilį'
+  email_settings_page:
+    header: El. pašto nustatymai
+    messages:
+      updated: El. pašto nustatymai atnaujinti
+  dashboard_page:
+    aria_label: 'Skydelis'
+    no_threads:
+      show_proposals: Šiuo metu nėra aktyvių pasiūlymų.
+    load_more: Įkelti daugiau gijų
+    mark_as_read: Žymėti kaip skaitytą
+    filtering:
+      filter_threads: Filtruoti gijas
+      filter_threads_aria_label: Filtruoti gijas
+      dropdown_heading: Filtruoti skydelį
+      all: Paskiausios gijos
+      all_description: Rodyti paskiausias gijas
+      proposals: Pasiūlymai
+    aria_thread:
+      current_proposal: 'Esamas pasiūlymas: {{name}}.'
+    threads_from:
+      today: 'Šiandien'
+      yesterday: 'Vakar'
+  inbox_page:
+    unread_threads: Neskaitytos gijos
+  discussion:
+    activity: 'Veikla'
+    load_previous: 'Įkelti ankstesnę veiklą'
+  thread_group:
+    aria_label: 'Grupės pavadinimas'
+  thread_context:
+    thread_options: 'Gijos parinktys'
+    close_thread: 'Užverti'
+    delete_thread: 'Ištrinti'
+  delete_thread_form:
+    title: Ištrinti giją
+    body: Ar tikrai norite ištrinti šią giją?
+    messages:
+      success: Gija ištrinta
+  delete_comment_dialog:
+    title: 'Ištrinti komentarą'
+    question: 'Jūs tikrai norite ištrinti šį komentarą?'
+    confirm: 'Ištrinti komentarą'
+  new_comment_item:
+    context_menu:
+      edit_comment: 'Redaguoti komentarą'
+      delete_comment: 'Ištrinti komentarą'
+  contact_message_form:
+    email_label: 'Jūsų el. pašto adresas'
+    email_placeholder: 'Įveskite savo el. pašto adresą...'
+  decision_tools_card:
+    proposal_title: Pasiūlymas
+    count_title: Patikrinti
+    poll_title: Apklausa
+    meeting_title: Laiko apklausa
+  poll_common_form:
+    closed: Uždarytas
+  poll_count_options:
+    'no': 'Ne'
+  poll_meeting_chart_panel:
+    total: Iš viso
+  polls_page:
+    heading: Sprendimai

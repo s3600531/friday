@@ -1,0 +1,21 @@
+he:
+  poll:
+    export:
+      title: תואר
+      author: מחבר
+      details: פרטים
+  email:
+    reply_to_this_discussion: השיבו לדיון זה
+    catch_up:
+      mark_as_read: סמן כנקרא
+      thanks_for_reading: תודה שקראת. יום טוב!
+      click_here: הקליקו כאן
+  footer:
+    about: אודות
+    blog: בלוג
+    contact: יצירת קשר
+    help: עזרה
+    privacy: פרטיות
+    pricing: תמחור
+    public_groups: קבוצות ציבוריות
+    terms: תנאי שימוש

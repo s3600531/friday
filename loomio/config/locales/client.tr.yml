@@ -1,0 +1,572 @@
+tr:
+  poll_types:
+    proposal: Öneri
+    count: Kontrol et
+    poll: Anket
+    dot_vote: Oy kullan
+  timezones:
+    local: Yerel saat ({{value}})
+  common:
+    expand: Genişlet
+    ok_got_it: Tamam, anladım
+    learn_more: Daha fazla bilgi edin
+    not_found: Bulunamadı
+    time_zone: Saat dilimi
+    local_time: Yerel saat
+    confirm_discard_changes: Değişikliklerden vazgeç?
+    time:
+      am: am
+      pm: pm
+    closing_in: 'Kapanış {{time}}'
+    closed_ago: 'Kapandı {{time}}'
+    volume: 'Hacim'
+    notification_volume: 'Bildirim ses düzeyi'
+    group: 'Grup'
+    groups: 'Gruplar'
+    threads: 'Müzakereler'
+    decisions: 'Kararlar'
+    settings: 'Ayarlar'
+    help: 'Yardım'
+    privacy:
+      privacy: 'Gizlilik'
+      public: 'Genel'
+      open: 'Açık'
+      closed: 'Kapalı'
+      private: 'Özel'
+      secret: 'Gizli'
+    selected: 'Seçilmiş'
+    date_range:
+      today: 'Bugün'
+      yesterday: 'Dün'
+      thisweek: 'Bu Hafta'
+      thismonth: 'Bu Ay'
+      older: 'Eski'
+    more_help: 'Daha fazla yardım'
+    models:
+      proposal: 'Öneri'
+    copy: 'Kopyala'
+    copy_text: 'Metni kopyala'
+    copied: 'Panoya kopyalandı'
+    action:
+      close: 'Kapat'
+      save: 'Kaydet'
+      save_changes: 'Değişiklikleri kaydet'
+      update_settings: 'Ayarları güncelle'
+      reply: 'Cevapla'
+      edit: 'Düzenle'
+      remove: 'Kaldır'
+      like: 'Beğen'
+      back: 'Geri'
+      unlike: 'Beğenmekten vazgeç'
+      update: 'Güncelle'
+      cancel: 'İptal et'
+      show_more: "Daha fazla göster"
+      view_all: "Hepsini görüntüle"
+      new_thread: "Yeni konu"
+      add_subgroup: 'Alt grup ekle'
+      loading: 'Yükleniyor'
+      translate: 'Tercüme et'
+      translated: 'Bing Translator tercümesi'
+      upload: 'Yükle'
+      uploading: 'Yükleniyor'
+      load_more: 'Daha fazla yükle'
+      share: Paylaş
+      done: Tamamlandı
+      start: Başla
+      invite: Davet et
+    formatting_help:
+      label: 'Biçimlendirme'
+  devise:
+    failure:
+      inactive: 'Bu e-posta adresiyle ilişkili devre dışı bırakılmış bir hesap var. Hesabınızı yeniden etkinleştirmek istiyorsanız, bizimle iletişime geçin.'
+  error_page:
+    forbidden: 'Bunu yapmaya yetkin bulunmuyor.'
+    page_not_found: 'Bulunamadı. Bu taşınmış veya silinmiş olabilir.'
+    internal_server_error: 'Üzgünüz, yanlış giden birşeyler oldu. Lütfen tekrar deneyin.'
+  previous_polls_page:
+    heading: '{{name}} içindeki etkinlikler'
+  volume_levels:
+    loud: 'Yüksek sesli'
+    normal: 'Normal'
+    quiet: 'Sessiz'
+    mute: 'Sesi kıs'
+    unmute: 'Sesi aç'
+  change_volume_form:
+    aria_label: "E-posta ayarları formunu değiştir"
+    loud_label: "Tüm aktiviteler"
+    normal_label: "Duyurular"
+    quiet_label: "E-posta yok"
+    mute_label: "Sesi kıs"
+    discussion:
+      loud_description: "Bu konuyla ilgili etkinlik olduğunda e-postayla size gönderilecektir."
+    membership:
+      title: "{{title}} için e-posta ayarları"
+  inbox:
+    clear: 'Temizle'
+    latest: 'En yeniler'
+    unread: 'Okunmamış'
+    closing_in: 'Kapanış'
+  signed_out_modal:
+    ok: "Tamam"
+  comment_form:
+    aria_label: 'Bir yorum ekle'
+    attachments:
+      add_attachment: 'Dosya ekle'
+      remove_attachment: 'Eki kaldır'
+    messages:
+      created: 'Yorum eklendi'
+      replied: '{{name}} cevaptan haberdar edildi'
+      updated: 'Yorum güncellendi'
+      destroyed: 'Yorum silindi'
+    edit_comment: 'Yorumu düzenle'
+    delete_comment: 'Yorumu sil'
+    cancel_reply: 'Cevabı İptal Et'
+    confirm_delete_message: 'Bu yorumu silmek istediğinden emin misin?'
+    confirm_delete: 'Yorumu sil'
+    submit_button:
+      label: 'Gönder'
+    private_privacy_notice: 'Yorumunuz sadece {{groupName}} grubunun üyelerine görünür olacak.'
+    public_privacy_notice: 'Yorumunuz web üzerindeki herkese görünür olacak.'
+  sidebar:
+    start_group: 'Yeni grup'
+    explore: 'Genel gruplar'
+    start_thread: Yeni konu
+    aria_labels:
+      groups_list: 'Gruplar'
+      user_list: 'Kullanıcı eylemleri'
+  navbar:
+    recent_title: 'Kontrol paneline git'
+    unread_title: 'Okunmamış etkinlikleri görüntüle'
+    start_thread: 'Yeni konu'
+    notifications: 'Bildirim paneli'
+    search:
+      results_aria_label: 'Arama sonuçları'
+      no_results: 'Hiçbir konu bulunamadı'
+      close: 'Arama panelini kapat'
+      placeholder: 'Arama'
+      loading: 'Sonuçlar yükleniyor...'
+      discussions: 'Müzakereler'
+      proposals: 'Öneriler'
+      comments: 'Yorumlar'
+    sign_in: 'Oturum aç'
+    logo_title: 'Ana sayfa'
+  membership_dropdown:
+    make_coordinator: 'Koordinatör yap'
+    cancel_invitation: Davetiyeyi iptal et
+  start_menu:
+    label: 'Kullanıcı eylemleri'
+    title: 'Aksiyon'
+    start_group: 'Grup Başlat'
+    start_subgroup: 'Alt Grup Başlat'
+    start_thread: 'Konu Başlat'
+    invite_people: 'Kişileri davet et'
+  notifications:
+    header: "Bildirimler"
+    publish_outcome: "Bir sonuç yayınla"
+  position_buttons_panel:
+    heading: Söz sahibi ol
+  extend_proposal_form:
+    aria_label: Kapanış saatini değiştir
+    title: 'Kapanış saatini değiştir'
+    success: 'Öneri kapanış süresi güncellendi'
+    submit: 'Kapanış saatini güncelle'
+  discussion_record:
+    created: '{{title}} konusu {{groupName}} grubunda başarıyla oluşturuldu '
+    updated: 'Değişiklikleri {{title}} konusuna kaydet'
+  discussion_form:
+    messages:
+      created: 'Konu başladı'
+      updated: 'Konu güncellendi'
+    new_discussion_title: 'Yeni konu başlat'
+    edit_discussion_title: 'Konuyu düzenle'
+    group_label: 'Grup'
+    group_placeholder: 'Bir grup seç'
+    title_label: 'Başlık'
+    title_placeholder: 'Müzakere etmek istediğiniz konu nedir?'
+    context_label: 'İçerik'
+    context_placeholder: 'Üretken bir tartışma grubuna sahip olmak için yeterli derecede arka plan bilgisi veriniz. Bu alan müzakere ilerledikçe güncellenebilir'
+    privacy_label: 'Gizlilik'
+    privacy_public: 'Herhangi bir kişi konuyu görebilir. Sadece üyeler katılım gösterebilir.'
+    privacy_private: 'Konu sadece {{group}} grubunun üyelerine görünür olacaktır.'
+    privacy_organisation: 'Konu {{parent}} ve {{group}} gruplarının üyelerine görünür olacaktır.'
+  cover_photo_form:
+    heading: 'Yeni kapak fotoğrafı'
+    upload_link: 'Yeni kapak fotoğrafı yükle'
+  logo_photo_form:
+    heading: 'Yeni grup logosu'
+    upload_link: 'Yeni grup logosu yükle'
+  join_group_button:
+    join_group: Gruba katıl
+    messages:
+      joined_group: 'Şu an {{group}} grubunun bir üyesisin.'
+  membership_request_form:
+    heading: Gruba katılmak için talep gönder
+    name_label: İsim
+    email_label: E-posta
+    introduction_label: Neden katılmak istiyorsun?
+    submit_button: Katılmak için talep gönder
+    introduction_over_limit: Yanıt çok uzun
+    messages:
+      membership_requested: '{{group}} grubuna üyelik talebi gönderdin.'
+  revision_history_modal:
+    aria_label: Revizyon geçmişi
+    started_by: '<strong>{{name}}</strong> tarafından başlatıldı'
+    edited_by: '<strong>{{name}}</strong> tarafından düzenlendi'
+    posted: Gönderildi
+    current_revision: En yeniler
+  group_page:
+    messages:
+      privacy:
+        members: 'Bu grup şu an sadece grup üyeleri tarafından görülebilir'
+        parent_members: 'Bu grup şu an sadece organizasyonunuzun üyeleri tarafından görülebilir'
+        public: 'Bu grup şu an herkese görünür'
+      leave_group_success: 'Bu grubu terkettin'
+      archive_group_success: 'Bu grup devre dışı bırakıldı'
+    group_logo: 'Grup logosu'
+    new_photo: 'yeni fotoğraf'
+    new_cover_photo: 'Yeni kapak fotoğrafı yükle'
+    new_group_logo: 'Yeni grup logosu yükle'
+    discussions_placeholder: 'Konu, herkesin bir başlık hakkında müzakere ederek birlikte kararlar aldığı yerdir.'
+    members_placeholder: 'Burada tek kişi sensin: sana katılması için başkalarını davet et!'
+    member_options: Üye seçenekleri
+    subgroups: 'Alt gruplar'
+    invite_people: 'Davet et'
+    visibility_label: 'Görünürlük'
+    options_label: 'Seçenekler'
+    options:
+      label: 'Seçenekler'
+      edit_group: 'Grup Ayarlarını Düzenle'
+      manage_members: 'Üyeleri Yönet'
+      add_subgroup: 'Alt Grup Ekle'
+      manage_subscription: 'Grup Aboneliğini Yönet'
+      email_settings: 'E-posta ayarları'
+      leave_group: 'Gruptan Ayrıl'
+      deactivate_group: 'Grubu Devre Dışı Bırak'
+    volume:
+      loud: Herhangi bir etkinlik olduğunda e-posta gönder.
+      loud_aria_description: Bu grup için bildirim ses düzeyiniz Yüksek Ses'e ayarlandı. Her ne zaman bir faaliyet olursa size e-posta gönderilecektir.
+      loud_message: '"{{name}}" hakkındaki tüm faaliyetler size e-postayla gönderilecektir.'
+      normal: 'Sadece önemli aktiviteleri e-postala: Yeni konular ve öneriler, sonuçlar vb'
+      normal_aria_description: Bu grup için bildirim ses düzeyiniz Normal'e ayarlandı. Sadece önemli faaliyetler e-postayla iletilecektir; mesela birisi yeni bir konu başlattığında, bir öneri gündeme getirdiğinde ya da bir sonuç belirlediğinde gibi.
+      normal_message: '"{{name}}" içerisinde sadece önemli faaliyetler hakkında e-postayla haberdar edileceksiniz.'
+      quiet: Bu grup hakkında e-posta gönderme. Etkinlikler kontrol panelinde görüntülenecektir.
+      quiet_aria_description: Bu grup için bildirim ses düzeyiniz Sakin'e ayarlandı. Bu gruba ait faaliyetler hakkında e-posta almayacaksınız. Grup faaliyetleri Kontrol Panelinde görüntülenecektir
+      quiet_message: '"{{name}}" hakkındaki faaliyetler size e-postayla gönderilmeyecektir.'
+      mute: Bu grubu kontrol panelinde gizle ve @bahsedilmediğim sürece bildirim gönderme.
+      mute_aria_description: Bu grup için bildirim ses düzeyiniz Sessiz'e ayarlandı. Bu gruba ait faaliyetler hakkında birisi sizden bahsetmediği sürece e-posta almayacaksınız ve grup faaliyetleri Kontrol Panelinde görüntülenmeyecektir.
+      mute_message: '"{{name}}" sizin panonuzdan kaldırıldı.'
+    privacy:
+      private: 'Gizlilik: Bu grubu sadece grup üyeleri görebilir'
+      parent_members: 'Gizlilik: Bu grup sadece {{parentGroupName}} ve {{groupName}} gruplarının üyelerine görünür.'
+      public: 'Gizlilik: Bu grup web üzerinde görülebilir'
+      aria_label: 'Grup gizliliği: {{privacy}}'
+  description_card:
+    title: 'Grup açıklaması'
+  group_form:
+    start_group_heading: 'Bir grup başlat'
+    start_subgroup_heading: 'Bir alt grup başlat'
+    edit_group_heading: 'Grup ayarlarını düzenle'
+    edit_subgroup_heading: 'Alt grup ayarlarını düzenle'
+    group_name: 'Grup adı'
+    group_name_placeholder: 'Grubuna ne ad vermek istiyorsun?'
+    subgroup_name: 'Alt Grup Adı'
+    description: 'Tanım'
+    description_placeholder: 'Grubunuzun amacını açıklayın ki grup üyeleriniz neden burada olduklarını bilsin.'
+    privacy_statement:
+      private_to_group: 'Ad ve açıklama sadece grup üyelerine görünür olacaktır.'
+      private_to_parent_members: 'Ad ve açıklama sadece {{parent}} grubunun üyelerine görünür olacaktır.'
+    privacy: 'Gizlilik'
+    confirm_change_to_secret: "Eğer devam ederseniz, bu gruptaki tüm konular ve onların alt grupları gizlenecektir."
+    confirm_change_to_secret_subgroup: 'Eğer devam ederseniz, tüm konular gizli yapılacaktır.'
+    confirm_change_to_public: 'Eğer devam ederseniz, bu gruptaki tüm konular web üzerinde herkese açık olacaktır.'
+    confirm_change_to_private_discussions_only: 'Eğer devam ederseniz, bu gruptaki tüm kamuya açık konular gizlenecektir.'
+    advanced_settings: "Gelişmiş ayarlar"
+    how_do_people_join: "Kişiler nasıl katılabilir?"
+    membership_granted_upon_request: 'Herkes gruba katılabilir.'
+    membership_granted_upon_approval: 'Herkes katılım talebinde bulunabilir, ancak onaylanması gerekir.'
+    thread_privacy: 'Konu gizliliği'
+    public_threads: 'Sadece kamuya açık konular'
+    public_discussions_subgroup: '{{parentGroupName}} grubunda bulunan herkes müzakereleri görebilir'
+    public_or_private_threads: 'Kamuya açık ve gizli konulara izin ver'
+    private_threads: 'Sadece üyeler müzakereleri görebilir'
+    permissions: 'İzinler'
+    allow_public_threads: 'Bu grupta kamuya açık konulara izin ver.'
+    parent_members_can_see_discussions: '{{parent}} grubunun üyeleri gizli konuları görebilir.'
+    members_can_add_members: 'Üyeler başkalarını davet edebilir ve katılım isteklerini onaylayabilir.'
+    members_can_create_subgroups: 'Üyeler alt gruplar oluşturabilir.'
+    members_can_edit_discussions: 'Üyeler herhangi bir konunun içeriğini ve başlığını güncelleyebilir.'
+    members_can_edit_comments: 'Üyeler her zaman kendi yorumlarını düzenleyebilir.'
+    members_can_start_discussions: 'Üyeler yeni konular başlatabilir.'
+    members_can_vote: 'Üyeler önerilere oy verebilir.'
+    members_can_raise_motions: 'Üyeler öneriler başlatabilir.'
+    submit_start_group: 'Grup başlat'
+    submit_start_subgroup: 'Alt grup başlat'
+    submit_update: 'Ayarları güncelle'
+    messages:
+      group_created: 'Grup başlatıldı'
+      group_updated: 'Grup güncellendi'
+  membership_requests_card:
+    heading: 'Üyelik talepleri'
+    manage_requests: Talepleri yönet
+    manage_requests_with_count: Talepleri yönet ({{count}})
+  documents_page:
+    confirm_remove_title: Eki kaldır
+  document:
+    form:
+      title_label: İsim
+  membership_requests_page:
+    heading: Üyelik talepleri
+    approve: Onayla
+    ignore: Yok say
+    no_pending_requests: Bu grup için şu an hiçbir bekleyen üyelik talebi bulunmamaktadır.
+    no_previous_requests: Bu grup için şu an hiçbir bekleyen geçmiş üyelik talebi bulunmamaktadır.
+    previous_requests: Önceki Talepler
+    previous_request_response: '{{responder}} tarafından: {{response}} '
+    messages:
+      request_approved_success: Üyelik talebi onaylandı
+      request_ignored_success: Üyelik talebi yok sayıldı.
+  group_previous_proposals_card:
+    heading: Geçmiş öneriler
+    see_more: Daha fazlasını görün
+  invitation_form:
+    invite_people: 'Kişileri Davet Et'
+    group: 'Grup'
+    shareable_link: 'Paylaşılabilir bağlantı'
+    copy_link: 'Kopyala'
+    email_addresses: 'E-posta adresleri'
+    email_addresses_placeholder: 'Örn. helperbot@loomio.org, friendlybot@loomio.org'
+    add_custom_message: 'Davetinizi kişiselleştirin,'
+    add_custom_message_link: 'özel bir mesaj ekleyin.'
+    custom_message: 'Özel mesaj'
+    custom_message_placeholder: 'Davetiyeye dahil etmek için bir kişisel mesaj girin.'
+    team_invitation_message: 'Alternatif olarak,'
+    team_invitation_link: 'paylaşmak için bir bağlantı edinin.'
+    add_members: 'Üyeleri ekle'
+    from_parent_group: '{{name}} tarafından.'
+    send: 'Gönder'
+    done: 'Tamamlandı'
+    messages:
+      invitation_sent: 'Davetiye gönderildi.'
+      invitations_sent: '{{count}} davetiye gönderildi.'
+      max_invitations: 'Eğer 100''den fazla davetiye göndermek istiyorsanız, bir takım linki kullanınız.'
+  add_members_modal:
+    heading: '{{name}} grubundan kişileri ekle'
+    add_members: 'Üyeleri ekle'
+    user_added_to_subgroup: '{{name}} Alt Gruba eklendi'
+    users_added_to_subgroup: '{{count}} kullanıcı Alt Gruba eklendi'
+    no_members_to_add: '{{parent}} grubunun tüm üyeleri bu alt gruba ait'
+  memberships_page:
+    members: 'Üyeler'
+    name_label: 'İsim'
+    coordinator_label: 'Koordinatör'
+    remove_member_label: 'Kaldır'
+    fragment_placeholder: 'Kullanıcıları ad ya da kullanıcı adına göre filtrele...'
+    messages:
+      remove_member_success: '{{name}} kaldırıldı'
+      make_admin_success: '{{name}} şimdi bir koordinatör'
+      remove_admin_success: '{{name}} artık bir koordinatör değil'
+    remove_admin_from_self:
+      question: 'Artık bir koordinatör olmak istemediğinizden emin misiniz?'
+  membership_remove_modal:
+    invitation:
+      title: Davetiyeyi iptal et
+      flash: Davetiye iptal edildi
+      submit: Davetiyeyi iptal et
+    membership:
+      title: Üyeyi kaldır
+      submit: Üyeyi kaldır
+  pending_invitations_card:
+    heading: Bekleyen davetler
+    email: E-posta
+    invitation_link: Davetiye linki
+    sent: Gönderildi
+  cancel_invitation_form:
+    heading: Davetiyeyi iptal et
+    question: Bu davetiyeyi iptal etmek istediğinizden emin misiniz?
+    submit: "Evet, davetiyeyi iptal et"
+    cancel: 'Hayır'
+    messages:
+      success: Davetiye iptal edildi
+  profile_page:
+    messages:
+      updated: 'Profil güncellendi'
+      picture_changed: 'Profil resmi güncellendi'
+      password_changed: 'Şifre güncellendi'
+      deactivated: 'Hesap devre dışı bırakıldı'
+    change_picture_link: 'Resmi değiştir'
+    deactivate_user_link: 'Hesabınızı devre dışı bırakın'
+    profile: 'Profil'
+    edit_profile: 'Profili düzenle'
+    picture_label: 'Resim'
+    name_label: 'İsim'
+    username_label: 'Kullanıcı adı'
+    email_label: 'E-posta'
+    locale_label: 'Dil'
+    update_profile: 'Profili güncelle'
+  email_settings_page:
+    header: E-posta ayarları
+    daily_summary_label: Günlük özet e-postası
+    announcement_label: Duyurular
+    messages:
+      updated: E-posta ayarları güncellendi
+  dashboard_page:
+    aria_label: 'Kontrol paneli'
+    no_groups:
+      start: Başla
+      or: veya
+    no_threads:
+      show_all: Herhangi bir yeni konunuz yok.
+      show_proposals: Şu anda etkin herhangi bir öneri yok.
+      show_muted: Sesi kısılmış herhangi bir konunuz yok.
+    view_recent: Tüm son konuları görüntüle?
+    load_more: Daha fazla konu yükle
+    mark_as_read: Okundu olarak işaretle
+    filtering:
+      filter_threads: Konuları Filtrele
+      filter_threads_aria_label: Konuları Filtrele
+      dropdown_heading: Kontrol panelini filtrele
+      all: Son Konular
+      all_aria_label: Şu anda son konular görüntüleniyor
+      all_description: Son konuları görüntüle
+      proposals: Öneriler
+      proposals_aria_label: Şu anda aktif önerileri olan konular görüntüleniyor
+      proposals_description: Sadece aktif önerileri olan konuları görüntüle
+      muted_aria_label: Şu anda sesi kısılmış konular görüntüleniyor
+      muted_description: Sadece sesi kısılmış konuları görüntüleyin
+    aria_thread:
+      unread: '{{count}} okunmamış öğe.'
+      current_proposal: 'Güncel öneri: {{name}}.'
+      you_voted: 'Oy verdiniz: {{position}}.'
+    threads_from:
+      group: 'tarafından konular'
+      starred: 'Yıldızlı konular'
+      today: 'Bugün'
+      yesterday: 'Dün'
+      thisweek: 'Bu hafta'
+      thismonth: 'Bu ay'
+      older: 'Bir aydan daha eski'
+  inbox_page:
+    no_threads: Yaşasın! Gelen kutunuzdaki bütün konuları okudunuz.
+    unread_threads: Okunmamış konular
+    view_more: Daha Fazla Göster
+    no_groups:
+      start: Başla
+      or: veya
+  discussion:
+    activity: 'Etkinlik'
+    activity_placeholder: 'Henüz etkinlik yok!'
+    load_previous: 'Daha önceki aktiviteyi yükle'
+    started_by: '<strong>{{name}}</strong> tarafından başlatıldı'
+  activity_card:
+    unread: Okunmamış
+    latest: En yeniler
+    attachment_display:
+      aria_label: 'Dosya eklendi:'
+      image_alt: 'Resim eklendi'
+  thread_group:
+    aria_label: 'Grup adı'
+  thread_context:
+    aria_label: 'Konu içeriği'
+    thread_options: 'Konu seçenekleri'
+    email_settings: 'E-posta ayarları'
+    close_thread: 'Kapat'
+    mute_thread: 'Sesi kıs'
+    move_thread: 'Taşı'
+    print_thread: 'Yazdır'
+    delete_thread: 'Sil'
+  delete_thread_form:
+    title: Konuyu sil
+    body: Bu konuyu silmek istediğinden emin misin?
+    messages:
+      success: Konu silindi
+  move_thread_form:
+    title: Konuyu taşı
+    body: 'Hedef grup:'
+    confirm: Konuyu taşı
+    confirm_change_to_private_thread: '{{groupName}} açık bir gruptur. Eğer devam ederseniz, konu herkese açılacaktır.'
+    messages:
+      success: 'Konu {{name}} grubuna taşındı '
+  delete_comment_dialog:
+    title: 'Yorumu sil'
+    question: 'Bu yorumu silmek istediğinden emin misin?'
+    confirm: 'Yorumu sil'
+  new_comment_item:
+    aria_label: '{{author}} tarafından yapılan yorum'
+    context_menu:
+      aria_label: 'Yorum seçenekleri'
+      edit_comment: 'Yorumu düzenle'
+      delete_comment: 'Yorumu sil'
+    in_reply_to: '<strong>{{recipient}}</strong> kişisine cevaben'
+    edited: 'Düzenlendi'
+  new_vote_item:
+    agree: 'katıldın'
+    abstain: 'çekimser kaldın'
+    disagree: 'katılmadın'
+    block: 'itiraz ettin'
+    agree_with_statement: 'katıldı: <span>{{statement}}</span>'
+    abstain_with_statement: 'çekimser kaldı: <span>{{statement}}</span>'
+    disagree_with_statement: 'katılmadı: <span>{{statement}}</span>'
+    block_with_statement: 'itiraz etti: <span>{{statement}}</span>'
+  new_proposal_item:
+    author_created_proposal: 'bir öneri başlattı: <span>{{title}}</span>'
+  proposal_closed_item:
+    proposal_closed: 'Öneri kapatıldı: <span>{{title}}</span>'
+  proposal_closed_by_user_item:
+    proposal_closed_by_user: 'öneriyi kapattı: <span>{{title}}</span>'
+  proposal_edited_item:
+    name: 'önerinin başlığını güncelledi: <span>{{title}}</span>'
+    description: 'önerinin tanımını düzenledi'
+    closing_at: 'önerinin kapanış zamanını <span>{{time}}</span> olarak güncelledi '
+    description_name: 'önerinin başlığını ve tanımını güncelledi'
+    closing_at_name: 'önerinin başlığını ve kapanış zamanını güncelledi'
+    closing_at_description: 'önerinin tanımını ve kapanış zamanını güncelledi'
+    closing_at_description_name: 'önerinin başlığını, tanımını ve kapanış zamanını güncelledi'
+  proposal_outcome_created_item:
+    proposal_outcome_created: 'öneri için bir sonuç yayınladı:'
+  proposal_outcome_updated_item:
+    proposal_outcome_updated: 'önerinin sonucu güncellendi:'
+  discussion_edited_item:
+    title: 'konu başlığı güncellendi: <span>{{title}}</span>'
+    description: 'konu içeriği güncellendi'
+    description_title: 'konu başlığı ve içerik güncellendi'
+    private: 'konu gizliliği güncellendi: '
+    public_to_private: 'gizli'
+    private_to_public: 'genel'
+    description_private_title: 'konu başlığı, içerik ve gizlilik güncellendi'
+  contact_message_form:
+    contact_us: 'Bizimle iletişime geçin'
+    name_label: 'Adın'
+    name_placeholder: 'Adınızı giriniz...'
+    email_label: 'E-posta adresin'
+    email_placeholder: 'Eposta adresinizi giriniz...'
+    message_label: 'Mesajın'
+    message_placeholder: 'Mesajınız...'
+    send_message: 'Mesaj gönder'
+  hint:
+    context: 'İçerik panelini kullanmak için ipuçları'
+    discussion: 'İlgi çekici bir müzakere başlatmak için ipuçları'
+    invitation: 'Harika bir davetiye yazmak için ipuçları'
+    proposal: 'Anlaşılır bir öneri yazmak için ipuçları'
+    vote: 'Konumunu istediğin zaman değiştirebilirsin'
+  global:
+    messages:
+      reload: 'Tekrar yükle'
+  emoji_picker:
+    search: "Bir emoji bulun..."
+    no_emojis_found: "'{{term}}' için hiçbir emoji bulunamadı!"
+  decision_tools_card:
+    proposal_title: Öneri
+    count_title: Kontrol et
+    poll_title: Anket
+  poll_common_notify_group:
+    notify_group: Duyuru
+  poll_common_close_form:
+    close_proposal: Öneriyi kapat
+  poll_common_form:
+    closed: Kapalı
+    start: Başla
+  poll_count_options:
+    'yes': 'Evet'
+    'no': 'Hayır'
+  polls_page:
+    heading: Kararlar

@@ -1,0 +1,111 @@
+an:
+  common:
+    time:
+      am: am
+      pm: pm
+    group: 'Grupo'
+    groups: 'Grupos'
+    privacy:
+      public: 'Publico'
+      private: 'Privau'
+    date_range:
+      today: 'Hue'
+    models:
+      proposal: 'Propuesta'
+    action:
+      save: 'Alzar'
+      edit: 'Editar'
+      like: 'Me fa goyo'
+      unlike: 'Ya no me fa goyo'
+      cancel: 'Cancelar'
+  error_page:
+    forbidden: 'No tiens permisos ta fer isto.'
+  inbox:
+    clear: 'Limpiar'
+    unread: 'No leyiu'
+  comment_form:
+    edit_comment: 'Editar comentario'
+    delete_comment: 'Borrar comentario'
+    confirm_delete_message: 'Yes seguro que quiers borrar iste comentario?'
+  navbar:
+    search:
+      placeholder: 'Buscar'
+      discussions: 'Discusions'
+  membership_dropdown:
+    make_coordinator: 'Fer coordinador'
+  notifications:
+    header: "Notificacions"
+  position_buttons_panel:
+    heading: 'Da a tuya opinión '
+  discussion_form:
+    group_label: 'Grupo'
+    title_label: 'Titol'
+    context_label: 'Contexto'
+    privacy_label: 'Privacidat'
+  join_group_button:
+    join_group: Unir-se a o grupo
+  membership_request_form:
+    heading: Pedir pertenencia a o grupo
+    name_label: Nombre
+    email_label: Correu electronico
+  group_page:
+    options_label: 'Opcions'
+    options:
+      label: 'Opcions'
+  document:
+    form:
+      title_label: Nombre
+  membership_requests_page:
+    approve: Aprebar
+    ignore: Ignorar
+  memberships_page:
+    members: 'Miembros'
+    name_label: 'Nombre'
+    coordinator_label: 'Coordinador'
+    remove_member_label: 'Borrar'
+  profile_page:
+    profile: 'Perfil'
+    picture_label: 'Imachen'
+    name_label: 'Nombre'
+    username_label: 'Nombre d''usuario'
+    email_label: 'Correu electronico'
+    locale_label: 'Idioma'
+  dashboard_page:
+    aria_label: 'Panel de control'
+    no_groups:
+      or: u
+    mark_as_read: Marcar como leyiu
+    threads_from:
+      today: 'Hue'
+  inbox_page:
+    no_groups:
+      or: u
+  activity_card:
+    unread: No leyiu
+  thread_group:
+    aria_label: 'Nombre d''o grupo'
+  thread_context:
+    close_thread: 'Zarrar'
+  delete_comment_dialog:
+    title: 'Borrar comentario'
+    question: 'Yes seguro que quiers borrar iste comentario?'
+    confirm: 'Borrar comentario'
+  new_comment_item:
+    context_menu:
+      edit_comment: 'Editar comentario'
+      delete_comment: 'Borrar comentario'
+  contact_message_form:
+    name_label: 'O tuyo nombre'
+    email_label: 'O tuyo correu electronico'
+    message_label: 'O tuyo mensache'
+  hint:
+    context: 'Consellos ta usar o panel de contexto'
+    discussion: 'Consellos ta empecipiar una discusión participativa'
+    invitation: 'Consellos ta redactar una buena invitación'
+    proposal: 'Consellos ta redactar una propuesta clara'
+    vote: 'Puetz cambiar a tuya posición en qualsiquier inte'
+  poll_common_form:
+    closed: Zarrau
+  poll_count_options:
+    'yes': 'Sí'
+    'no': 'No'

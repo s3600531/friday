@@ -1,0 +1,65 @@
+ca:
+  poll:
+    export:
+      title: Títol
+      author: Autor
+      details: Detalls
+      group_name: Nom del grup
+      total: Total
+  validate:
+    motion:
+      one_at_a_time: Hi ha una altra proposta activa.
+  email:
+    reset_password:
+      greeting: |
+          Hola %{name}
+          Aquí teniu un enllaç per reiniciar la contrasenya del vostre compte de Loomio:
+      link_text: Reinicieu la contrasenya
+    custom: "%{text}"
+    group_email:
+      intro: "%{who} ha fet un anunci a %{group}:"
+    by_who: per %{person}
+    reply_to_this_discussion: Responeu a aquesta discussió
+    view_group: Mostra el grup
+    to_join_group:
+      invitation_text: "%{member} us ha convidat a unir-vos al seu grup %{group_name}"
+      invitation_text_html: "us ha convidat a unir-vos al seu grup"
+      link_help: "Cliqueu a l'enllaç de sota per acceptar la invitació:"
+      accept_invitation: "Accepta la invitació"
+    user_added_to_group:
+      content: "%{who} us ha afegit a %{which_group}"
+      content_html: "<strong>%{who}</strong> us ha afegit a <strong>%{which_group}</strong>."
+      link_help: "Cliqueu a l'enllaç de sota per a anar al grup:"
+    unsubscribe: 'Doneu-vos de baixa o canvieu les preferències de correu:'
+    unsubscribe_html: "<a href='%{link_path}'>%{link_text}</a> per donar-vos de baixa o canviar les preferències de correu."
+    catch_up:
+      mark_as_read: Marca com a llegit
+      click_here: Fes click aquí
+    membership_request:
+      subject: "%{who} ha demanat unir-se a %{which_group}"
+      view_group: Pots aprovar o denegar la sol·licitud aquí
+  footer:
+    about: Quant a
+    blog: Bloc
+    contact: Contacte
+    help: Ajuda
+    privacy: Privacitat
+    pricing: Preus
+    public_groups: Grups públics
+    terms: Condicions
+  password_reset:
+    forbidden_passwords: Les contrasenyes com "password" estan prohibides per raons de seguretat.
+  markdown:
+    paragraphs:
+      title: |
+          ## Paràgrafs
+    emphasis:
+      title: |
+          ## Èmfasis
+    lists:
+      title: |
+          ## Llistes
+    links:
+      title: |
+          ## Enllaços i imatges
+  comment_by: Comentari per %{comment_author}

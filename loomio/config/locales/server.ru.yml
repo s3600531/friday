@@ -1,0 +1,25 @@
+ru:
+  poll:
+    export:
+      title: Название
+      author: Автор
+      details: Детали
+      total: Всего
+  email:
+    catch_up:
+      mark_as_read: Отметить прочитанным
+      click_here: Кликните здесь
+  footer:
+    about: О нас
+    blog: Блог
+    contact: Контакты
+    help: Помощь
+    privacy: Конфиденциальность
+    pricing: Цены
+    public_groups: Oбщедоступные группы
+    terms: Условия
+    independent_install_html: '%{hostname} работает с независимой копией Loomio: <a href="http://github.com/loomio/loomio">разузнать побольше</a>.'
+  poll_mailer:
+    common:
+      unsubscribe: Отписаться
+  comment_by: Комментарий %{comment_author}

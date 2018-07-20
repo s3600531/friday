@@ -1,0 +1,19 @@
+lt:
+  poll:
+    export:
+      title: Antraštė
+      details: Išsamesnė Informacija
+      group_name: Grupės Pavadinimas
+      total: Iš viso
+  email:
+    catch_up:
+      mark_as_read: Žymėti kaip skaitytą
+  footer:
+    about: Apie
+    blog: Tinklaraštis
+    contact: Susisiekite
+    help: Pagalba
+    privacy: Privatumas
+    pricing: Kainynas
+    public_groups: Viešos grupės
+    terms: Nuostatos

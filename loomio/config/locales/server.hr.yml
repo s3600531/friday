@@ -1,0 +1,9 @@
+hr:
+  footer:
+    about: O nama
+    blog: Blog
+    contact: Kontakt
+    privacy: Privatnost
+    public_groups: Javne grupe
+    terms: Uvjeti
+  comment_by: Komentar od %{comment_author}
