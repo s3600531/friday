@@ -1,2 +1,0 @@
-class UsageReport < ApplicationRecord
-end

@@ -1,7 +1,0 @@
-development:
-  adapter: postgresql
-  database: loomio_development
-
-test:
-  adapter: postgresql
-  database: loomio_test
